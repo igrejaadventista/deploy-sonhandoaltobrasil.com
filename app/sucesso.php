@@ -96,8 +96,8 @@
 								<!-- Image: End -->
 								<!-- Decription: Start -->
 								<div class="portfolio-desc">
-									<h3>Jean Paulo Ricciardi Fernandes</h3>
-									<span>Medicina EUA</span>
+									<h3>Dr. Jean Paulo Ricciardi Fernandes</h3>
+									<span>Medico EUA</span>
 								</div>
 								<!-- Description: Start -->
 							</div>
@@ -214,6 +214,51 @@ Minha mensagem pra você:
 							<div class="grid-inner">
 								<!-- Image: Start -->
 								<div class="portfolio-image">
+										<img src="images/historias/pedro_henrique.jpg" alt="Pedro Henrique">
+									<!-- Overlay: Start -->
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+											
+											<a href="#myModal_pedro" data-lightbox="inline" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"  title="Image"><i class="icon-line-circle-plus"></i></a>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+									<!-- Overlay: End -->
+								</div>
+								<!-- Image: End -->
+								<!-- Decription: Start -->
+								<div class="portfolio-desc">
+									<h3>Pedro Henrique </h3>
+									<span>Fisioterapia</span>
+								</div>
+								<!-- Description: Start -->
+							</div>
+							<!-- Grid Inner: End -->
+							<!-- Modal -->
+                            <div class="modal1 mfp-hide" id="myModal_pedro">
+                                <div class="block mx-auto" style="background-color: #FFF; max-width: 500px;">
+                                    <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
+                                        
+                                        <div class="fbox-content">
+										<h3>Dr. Pedro Henrique
+Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacientes com déficits neurológicas
+</h3>
+                                            <span class="subtitle">Tive a honra de participar em 2 ocasiões no projeto sonhando alto. Momentos esses que aprendi de fato a depender totalmente de Deus e que me levaram a realização do sonho profissional. Maranata!</span>
+                                        </div>
+                                    </div>
+                                    <div class="section center m-0" style="padding: 30px;">
+                                        <a href="#" class="button" onClick="$.magnificPopup.close();return false;">Fechar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fim Modal -->
+						</article>
+
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-formados">
+							<!-- Grid Inner: Start -->
+							<div class="grid-inner">
+								<!-- Image: Start -->
+								<div class="portfolio-image">
 										<img src="images/historias/tarcila.jpg" alt="Tarcila">
 									<!-- Overlay: Start -->
 									<div class="bg-overlay">
@@ -282,50 +327,7 @@ Grande parte das minhas conquistas eu devo a Colportagem, de maneira especial ao
                             <!-- Fim Modal -->
 						</article>
 						<!-- Portfolio Item: End -->
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-formados">
-							<!-- Grid Inner: Start -->
-							<div class="grid-inner">
-								<!-- Image: Start -->
-								<div class="portfolio-image">
-										<img src="images/historias/pedro_henrique.jpg" alt="Pedro Henrique">
-									<!-- Overlay: Start -->
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											
-											<a href="#myModal_pedro" data-lightbox="inline" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"  title="Image"><i class="icon-line-circle-plus"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-									<!-- Overlay: End -->
-								</div>
-								<!-- Image: End -->
-								<!-- Decription: Start -->
-								<div class="portfolio-desc">
-									<h3><Pedro Henrique </h3>
-									<span>Fisioterapia</span>
-								</div>
-								<!-- Description: Start -->
-							</div>
-							<!-- Grid Inner: End -->
-							<!-- Modal -->
-                            <div class="modal1 mfp-hide" id="myModal_pedro">
-                                <div class="block mx-auto" style="background-color: #FFF; max-width: 500px;">
-                                    <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
-                                        
-                                        <div class="fbox-content">
-										<h3>Dr. Pedro Henrique
-Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacientes com déficits neurológicas
-</h3>
-                                            <span class="subtitle">Tive a honra de participar em 2 ocasiões no projeto sonhando alto. Momentos esses que aprendi de fato a depender totalmente de Deus e que me levaram a realização do sonho profissional. Maranata!</span>
-                                        </div>
-                                    </div>
-                                    <div class="section center m-0" style="padding: 30px;">
-                                        <a href="#" class="button" onClick="$.magnificPopup.close();return false;">Fechar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fim Modal -->
-						</article>
+						
 
 						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-formados">
 							<!-- Grid Inner: Start -->

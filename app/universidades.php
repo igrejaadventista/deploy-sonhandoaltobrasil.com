@@ -68,7 +68,6 @@
 									
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-											<a href="https://www.youtube.com/watch?v=S5gV-NjYAZk" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
 											<a href="https://www.unasp.br/ec/" target="_blank" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-external-link"></i></a>
                                             <a href="#myModal1" data-lightbox="inline" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"  title="Image"><i class="icon-list-ul1"></i></a>
                                         </div>

@@ -90,7 +90,9 @@
 						<div class="row col-mb-80">
 							<div class="col-lg-9">
 								<div class="feature-box media-box" style="max-width: 890px;">
-
+								<div class="col-md-7 col-lg-8 portfolio-single-image">
+									<iframe src="https://www.youtube.com/watch?v=4rqhZOw01YU" width="500" height="281" allow="autoplay; fullscreen" allowfullscreen></iframe>
+								</div>
 									<div >
 										<h3>Sonhe Alto!</h3>
 										<p>Você já ficou em uma fila “quilométrica” em algum local público ou privado por mais de uma hora aguardando a sua vez? Imagino que sim, isso não é nada agradável. Sentimentos como Ansiedade, impaciência, insegurança, medo de não da certo e até mesmo a vontade de desistir tomam conta da maioria dos que vivenciam esta experiência. Sabe, muitos jovens vivem como se estivessem em uma fila imaginária, almejando realizar o sonho de fazer um curso universitário e ainda não conseguiram por conta de um obstáculo financeiro ou quem sabe, ainda não andaram a segunda milha. Ellen White afirma que: “O êxito em qualquer coisa que empreendamos exige um objetivo definido. Aquele que desejar alcançar o verdadeiro êxito na vida deve conservar firmemente em vista o alvo digno de seus esforços. Tal alvo acha-se posto diante da juventude de hoje”. (Educ. pág. 262.) Portanto querido jovem, chegou a sua vez de sonhar mais alto e da um passo de fé em busca dos seus objetivos.</p>
