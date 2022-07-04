@@ -797,7 +797,7 @@ Minha família não tinha condições financeiras, mas ao ouvir falar da colport
                             <!-- Fim Modal -->
 						</article>
 
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-estudantes">
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-formado">
 							<!-- Grid Inner: Start -->
 							<div class="grid-inner">
 								<!-- Image: Start -->
