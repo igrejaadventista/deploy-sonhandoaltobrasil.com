@@ -28,7 +28,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Sonhando Alto.</title>
+	<title>Sonhando Alto</title>
 
 </head>
 
