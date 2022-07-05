@@ -46,8 +46,8 @@
 		<section id="page-title" class="page-title-parallax page-title-dark page-title-center include-header" style="background-image: url('demos/restaurant/images/geral.jpg'); background-size: cover; padding: 80px 0 80px;" data-bottom-top="background-position:0 0px;" data-top-bottom="background-position:0px -300px;">
 
 			<div class="container clearfix">
-				<img src="images/tit_numeros.png">
-				<span class="fw-normal">O Sonhando Alto é feito de resultados,<br> veja quanto crescemos nos últimos 20 anos.</span>
+				<img src="images/tit_download.png">
+				<span class="fw-normal">Arquivos para campanhas,<br> já formatados para uso.</span>
 			</div>
             <div style="position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url('demos/restaurant/images/sketch2.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-bottom: -10px;"></div>
 		</section><!-- #page-title end -->

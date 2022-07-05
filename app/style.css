@@ -125,6 +125,7 @@
 	margin-bottom: 1rem;
 }
 
+.blah { background: url('demos/restaurant/images/sections/4.jpg') #008CDD center center no-repeat; background-size: 100% auto}
 
 /* ----------------------------------------------------------------
 	Basic
@@ -274,6 +275,7 @@ fieldset,
 form { margin-bottom: 30px; }
 
 small { font-family: 'Lato', sans-serif; }
+
 
 
 @media (max-width: 1200px) {
@@ -1653,6 +1655,9 @@ a.h-text-dark:hover {
 }
 
 @media (min-width: 576px) {
+
+	.blah { background: url('demos/restaurant/images/sections/4.jpg') center center no-repeat; background-size: 100% auto}
+
 	.gutter-sm-10 {
 		--custom-gutter: 10px;
 	}
