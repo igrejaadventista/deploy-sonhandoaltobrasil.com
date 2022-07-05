@@ -13,7 +13,7 @@
 
 						<div class="col-12 col-md-auto text-center text-md-end">
 							<div class="copyrights-menu copyright-links clearfix">
-								<? /*<a href="#">Home</a>/<a href="index.html">O que é</a>/<a href="historico.html">Historico</a>/<a href="numeros.html">Números</a>/<a href="universidades.html">universidades</a>/<a href="sucesso.html">Histórias de Sucesso</a>/<a href="inscrevase.html">Inscreva-se</a>/*/ ?><a href="https://mailadventistas-my.sharepoint.com/:f:/g/personal/alan_araujo_adventistas_org/EpyqMSSpr5tOlk9VouXbl_8BJbVUd4b6Zuuf2SuUHf1N4A?e=cHnPPL" target="_blank">Downloads</a>
+								<? /*<a href="#">Home</a>/<a href="index.html">O que é</a>/<a href="historico.html">Historico</a>/<a href="numeros.html">Números</a>/<a href="universidades.html">universidades</a>/<a href="sucesso.html">Histórias de Sucesso</a>/<a href="inscrevase.html">Inscreva-se</a>/*/ ?><a href="downloads.php" target="_blank">Downloads</a>
 							</div>
 						</div>
 					</div>
