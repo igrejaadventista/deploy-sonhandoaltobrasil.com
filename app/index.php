@@ -104,11 +104,7 @@
 					</div>
 				</div>
 
-
-				<div class="clear"></div>
-
-
-				<div class="container section-contact topmargin-lg clearfix">
+				<div class="container section-contact clearfix">
 					<div class="row clearfix">
 
 						<div class="col-lg-4 col-md-6 bottommargin-sm center">
@@ -150,7 +146,6 @@
 
 					</div>
 				</div>
-
 			</div>
 
 
