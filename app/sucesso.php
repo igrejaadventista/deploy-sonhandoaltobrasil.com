@@ -214,6 +214,35 @@ Minha mensagem pra você:
 							<div class="grid-inner">
 								<!-- Image: Start -->
 								<div class="portfolio-image">
+										<img src="images/historias/ryan.jpg" alt="Ryan Victor">
+									<!-- Overlay: Start -->
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+									<!-- Overlay: End -->
+								</div>
+								<!-- Image: End -->
+								<!-- Decription: Start -->
+								<div class="portfolio-desc">
+									<h3>Ryan Victor </h3>
+									<span>Odontologia</span>
+								</div>
+								<!-- Description: Start -->
+							</div>
+							<!-- Grid Inner: End -->
+							<!-- Modal -->
+                            
+                            <!-- Fim Modal -->
+						</article>
+						
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-formados">
+							<!-- Grid Inner: Start -->
+							<div class="grid-inner">
+								<!-- Image: Start -->
+								<div class="portfolio-image">
 										<img src="images/historias/tarcila.jpg" alt="Tarcila">
 									<!-- Overlay: Start -->
 									<div class="bg-overlay">
