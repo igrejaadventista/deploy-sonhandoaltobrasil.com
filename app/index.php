@@ -131,7 +131,7 @@
 
 						<div class="col-lg-4 col-md-6 bottommargin-sm center">
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-heart"></i>
-							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Contatos Sociaist</h3>
+							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Contatos Sociais</h3>
 							<div style="display: flex; justify-content: center">
 								<a href="https://www.facebook.com/adventistasbrasiloficial" class="social-icon si-borderless si-facebook">
 									<i class="icon-line2-social-facebook"></i>
