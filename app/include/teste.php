@@ -27,6 +27,7 @@ $mensagem = "ola";
  $mail = new PHPMailer();
  $mail->IsSMTP(); 
  $mail->CharSet = 'UTF-8';
+ $mail->SMTPDebug = 4;
  $mail->Host = "smtp.gmail.com"; // Servidor SMTP
  $mail->SMTPSecure = "tls"; // conexão segura com TLS
  $mail->Port = 587; 
@@ -42,10 +43,12 @@ $mensagem = "ola";
  $mail->Body = '<br/>' . $mensagem . '<br/>' ; //Corpo da mensagem caso seja HTML
  $mail->AltBody = "$mensagem" ; //PlainText, para caso quem receber o email não aceite o corpo HTML
 
-if(!$mail->Send()) // Envia o email
- { 
- echo "Erro no envio da mensagem";
- } 
+ if($mail->send()){
+    echo 'mensagem enviadat';
+}else{
+    echo 'não pode ser enviada.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+}
 
 
 ?>
