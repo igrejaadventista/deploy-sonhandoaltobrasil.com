@@ -19,12 +19,14 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
+$mailDestino = "simei@smoler.com.br";
+$nome = "simei smoler";
+$assunto = "teste";
 $mensagem = "ola";
 
  $mail = new PHPMailer();
  $mail->IsSMTP(); 
  $mail->CharSet = 'UTF-8';
- $mail->True;
  $mail->Host = "smtp.gmail.com"; // Servidor SMTP
  $mail->SMTPSecure = "tls"; // conexão segura com TLS
  $mail->Port = 587; 
