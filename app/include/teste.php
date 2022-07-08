@@ -396,6 +396,16 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		$autoresponder->MsgHTML( $ar_body );
 	}
 
+
+	$mail->True;
+	$mail->Host = "smtp.gmail.com"; // Servidor SMTP
+	$mail->SMTPDebug = 0;
+	$mail->SMTPSecure = "tls"; // conexão segura com TLS
+	$mail->Port = 587; 
+	$mail->SMTPAuth = true; // Caso o servidor SMTP precise de autenticação
+	$mail->Username = "sonhandoaltobrasil@gmail.com.br";
+	$mail->Password = "S0nh@nd0Alto";
+
 	$mail->MsgHTML( $body );
 	$mail->CharSet = "UTF-8";
 	$sendEmail = $mail->Send();
