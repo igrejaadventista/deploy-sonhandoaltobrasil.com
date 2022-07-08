@@ -396,7 +396,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		$autoresponder->MsgHTML( $ar_body );
 	}
 
-
+	$mail->IsSMTP(); 
+	$mail->CharSet = 'UTF-8';
 	$mail->True;
 	$mail->Host = "smtp.gmail.com"; // Servidor SMTP
 	$mail->SMTPDebug = 0;
@@ -407,7 +408,6 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	$mail->Password = "S0nh@nd0Alto";
 
 	$mail->MsgHTML( $body );
-	$mail->CharSet = "UTF-8";
 	$sendEmail = $mail->Send();
 
 	if( $sendEmail == true ):
