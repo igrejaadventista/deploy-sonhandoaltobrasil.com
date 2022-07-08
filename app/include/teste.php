@@ -33,7 +33,7 @@ $mensagem = "ola";
  $mail->Port = 587; 
  $mail->SMTPAuth = true; // Caso o servidor SMTP precise de autenticação
  $mail->Username = "sonhandoaltobrasil@gmail.com"; // SMTP username
- $mail->Password = "S0nh@nd0Alto"; // SMTP password
+ $mail->Password = "S0nh@ndoAlt0"; // SMTP password
  $mail->From = "naoresponder@sonhandoaltobrasil.com"; // From
  $mail->FromName = "Sonhando Alto Brasil" ; // Nome de quem envia o email
  $mail->AddAddress($mailDestino, $nome); // Email e nome de quem receberá //Responder
