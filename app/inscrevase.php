@@ -52,7 +52,7 @@
 
 					<div class="form-result"></div>
 
-					<form class="mb-0 row" id="template-contactform" name="template-contactform" action="http://www.smoler.com.br/sonhandoalto/include/form.php" method="post">
+					<form class="mb-0 row" id="template-contactform" name="template-contactform" action="https://www.smoler.com.br/sonhandoalto/include/form.php" method="post">
 
 						<div class="form-process">
 							<div class="css3-spinner">
