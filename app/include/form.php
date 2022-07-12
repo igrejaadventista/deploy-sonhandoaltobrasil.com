@@ -121,14 +121,15 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 $mail = new PHPMailer();
 
  $mail->IsSMTP(); 
+ $mail->IsSMTP(); 
  $mail->CharSet = 'UTF-8';
  $mail->SMTPDebug = 4;
  $mail->Mailer = "smtp";
- $mail->Host = "mail.smtp2go.com"; // Servidor SMTP
- $mail->Port = 2525; 
+ $mail->Host = "mail.formulario.email"; // Servidor SMTP
+ $mail->Port = 465; 
  $mail->SMTPAuth = true;
  $mail->SMTPSecure = 'tls';
- $mail->Username = "sonhandoaltobrasil"; // SMTP username
+ $mail->Username = "sonhandoalto@formulario.email"; // SMTP username
  $mail->Password = "S0nh@ndoAlt0"; // SMTP password
 
 /* Add your SMTP Codes after this Line */
