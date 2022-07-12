@@ -121,7 +121,6 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 $mail = new PHPMailer();
 
  $mail->IsSMTP(); 
- $mail->IsSMTP(); 
  $mail->CharSet = 'UTF-8';
  $mail->SMTPDebug = 4;
  $mail->Mailer = "smtp";

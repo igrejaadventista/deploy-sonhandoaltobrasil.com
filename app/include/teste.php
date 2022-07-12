@@ -13,7 +13,7 @@ set_time_limit(240);
 ---------------------------------------------------*/
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\Exception; 
 
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
