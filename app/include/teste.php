@@ -1,5 +1,4 @@
 <?php
-set_time_limit(240);
 /*-------------------------------------------------
 
 	Form Processor Plugin
@@ -25,14 +24,16 @@ $assunto = "teste";
 $mensagem = "ola";
 
  $mail = new PHPMailer();
- $mail->IsSMTP(); 
+ $mail->IsSMTP(); // enable SMTP
  $mail->CharSet = 'UTF-8';
- $mail->SMTPDebug = 4;
+ $mail->SMTPDebug = 1;
  $mail->Mailer = "smtp";
+ $mail->Timeout =   60; // set the timeout (seconds)
  $mail->Host = "mail.formulario.email"; // Servidor SMTP
  $mail->Port = 465; 
  $mail->SMTPAuth = true;
  $mail->SMTPSecure = 'tls';
+ $mail->IsHTML(true);
  $mail->Username = "sonhandoalto@formulario.email"; // SMTP username
  $mail->Password = "S0nh@ndoAlt0"; // SMTP password
  $mail->AddAddress($mailDestino, $nome); // Email e nome de quem receberá //Responder
