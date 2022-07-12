@@ -1,5 +1,5 @@
 <?php
-
+set_time_limit(240);
 /*-------------------------------------------------
 
 	Form Processor Plugin
@@ -28,14 +28,13 @@ $mensagem = "ola";
  $mail->IsSMTP(); 
  $mail->CharSet = 'UTF-8';
  $mail->SMTPDebug = 4;
- $mail->Host = "smtp.gmail.com"; // Servidor SMTP
- $mail->SMTPSecure = "tls"; // conexão segura com TLS
- $mail->Port = 587; 
- $mail->SMTPAuth = true; // Caso o servidor SMTP precise de autenticação
- $mail->Username = "sonhandoaltobrasil@gmail.com"; // SMTP username
+ $mail->Mailer = "smtp";
+ $mail->Host = "mail.formulario.email"; // Servidor SMTP
+ $mail->Port = 465; 
+ $mail->SMTPAuth = true;
+ $mail->SMTPSecure = 'tls';
+ $mail->Username = "sonhandoalto@formulario.email"; // SMTP username
  $mail->Password = "S0nh@ndoAlt0"; // SMTP password
- $mail->From = "naoresponder@sonhandoaltobrasil.com"; // From
- $mail->FromName = "Sonhando Alto Brasil" ; // Nome de quem envia o email
  $mail->AddAddress($mailDestino, $nome); // Email e nome de quem receberá //Responder
  $mail->WordWrap = 50; // Definir quebra de linha
  $mail->IsHTML = true ; // Enviar como HTML

@@ -125,9 +125,9 @@ $mail = new PHPMailer();
  $mail->SMTPDebug = 4;
  $mail->Mailer = "smtp";
  $mail->Host = "mail.smtp2go.com"; // Servidor SMTP
- $mail->SMTPSecure = "tls"; // conexão segura com TLS
  $mail->Port = 2525; 
- $mail->SMTPAuth = true; // Caso o servidor SMTP precise de autenticação
+ $mail->SMTPAuth = true;
+ $mail->SMTPSecure = 'tls';
  $mail->Username = "sonhandoaltobrasil"; // SMTP username
  $mail->Password = "S0nh@ndoAlt0"; // SMTP password
 
