@@ -12,11 +12,11 @@
 	PHPMailer Initialization
 ---------------------------------------------------*/
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader
-require '../../../vendor/autoload.php';
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
 
 /*-------------------------------------------------
 	Receiver's Email
