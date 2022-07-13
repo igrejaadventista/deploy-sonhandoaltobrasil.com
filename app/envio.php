@@ -468,7 +468,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			$send_arEmail = $autoresponder->Send();
 		}
 
-		$msgReturn = "OK";
+		$msgReturn = "Formulário enviado com sucesso!";
 	else:
 		$msgReturn =  $mail->ErrorInfo;
 	endif;
