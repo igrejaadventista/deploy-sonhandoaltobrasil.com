@@ -87,8 +87,6 @@ require '../../../vendor/autoload.php';
 						'email' => ''.$emailTo.'', // Your Email Address
 						'name' => ''.$nomeTo.'' // Your Name
 					);
-
-					print_r($toemails);
 		/*-------------------------------------------------
 			Sender's Email
 		---------------------------------------------------*/
@@ -418,7 +416,8 @@ try {
 		$mail->MsgHTML( $body );
 		$mail->CharSet = "UTF-8";
 		$mail->send();
-		echo 'Message has been sent';
+
+		echo '{ "alert": "success", "message": "' . $message['success'] . '" }';
 
 } catch (Exception $e) {
 

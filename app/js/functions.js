@@ -1325,7 +1325,6 @@ window.scwEvents = window.scwEvents || {};
 			SEMICOLON.widget.textRotator();
 			SEMICOLON.widget.carousel();
 			SEMICOLON.widget.linkScroll();
-			SEMICOLON.widget.ajaxForm();
 			SEMICOLON.widget.subscription();
 			SEMICOLON.widget.shapeDivider();
 			SEMICOLON.widget.stickySidebar();
@@ -1763,31 +1762,7 @@ window.scwEvents = window.scwEvents || {};
 			SEMICOLON.initialize.functions( settings );
 		},
 
-		ajaxForm: function( element ){
-			let formSettings = {
-				element: element,
-				default: '.form-widget',
-				file: 'plugins.form.js',
-				error: 'plugins.form.js: Plugin could not be loaded',
-				execfn: false,
-				pluginfn: () => $().validate && $().ajaxSubmit,
-				class: 'has-plugin-form'
-			};
-
-			let settings = {
-				element: element,
-				default: '.form-widget',
-				file: 'plugins.ajaxform.js',
-				error: 'plugins.ajaxform.js: Plugin could not be loaded',
-				execfn: 'SEMICOLON_ajaxFormInit',
-				pluginfn: () => typeof scwAjaxFormPlugin !== "undefined",
-				trigger: 'pluginAjaxFormReady',
-				class: 'has-plugin-ajaxform'
-			};
-
-			SEMICOLON.initialize.functions( formSettings );
-			SEMICOLON.initialize.functions( settings );
-		},
+		
 
 		subscription: function( element ){
 			let formSettings = {

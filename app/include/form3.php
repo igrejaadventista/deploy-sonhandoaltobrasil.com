@@ -1,22 +1,14 @@
 <?php
 
 /*-------------------------------------------------
-
-	Form Processor Plugin
-	by SemiColonWeb
-
----------------------------------------------------*/
-
-
-/*-------------------------------------------------
 	PHPMailer Initialization
 ---------------------------------------------------*/
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader
-require '../../vendor/autoload.php';
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
 
 /*-------------------------------------------------
 	Receiver's Email
@@ -462,103 +454,13 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			$send_arEmail = $autoresponder->Send();
 		}
 
-		$msgReturn = "OK";
+		echo '{ "alert": "success", "message": "' . $message['success'] . '" }';
 	else:
-		$msgReturn =  $mail->ErrorInfo;
+		echo '{ "alert": "error", "message": "' . $message['error'] . '<br><br><strong>Reason:</strong><br>' . $mail->ErrorInfo . '" }';
 	endif;
 
 } else {
-	$msgReturn =  $mail->ErrorInfo;
+	echo '{ "alert": "error", "message": "' . $message['error_unexpected'] . '" }';
 }
 
 ?>
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<head>
-
-    <? include_once "meta.php";?>
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,600,700,800,900|Poppins:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/components/datepicker.css" type="text/css" />
-
-	<!-- restaurant Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/restaurant/restaurant.css" type="text/css" />
-	<link rel="stylesheet" href="demos/restaurant/css/fonts.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<link rel="stylesheet" href="css/colors.php?color=f68c3d" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Sonhando Alto - Inscreva-se</title>
- 
-</head>
-
-<body class="stretched sticky-footer page-transition" data-loader-html="<span class='pizza'> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> </span>">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-    <? include_once "menu.php";?>
-
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element slider-reservation h-auto include-header">
-
-			<div class="gmap min-vh-60 min-vh-lg-100" style="background-image: url('demos/restaurant/images/vem.jpg'); background-size: cover"></div>
-
-			<div class="p-5 reservation-form rounded bg-white">
-				<h3 class="font-secondary h1 color">Inscreva-se</h3>
-
-
-				<div class="form-widget mt-4 mt-lg-0" data-loader="button">
-
-					<div class="form-result"></div>
-
-					<?=$msgReturn?>
-
-				</div>
-			</div>
-
-		</section>
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-
-		</section><!-- #content end -->
-
-		<? include_once "base.php";?>
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-line-arrow-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-
-	<!-- Travel Demo Specific Script -->
-	<script src="js/components/datepicker.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-
-
-</body>
-</html>
