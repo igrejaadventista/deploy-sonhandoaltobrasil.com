@@ -27,7 +27,7 @@
 	<!-- Document Title
 	============================================= -->
 	<title>Sonhando Alto - Inscreva-se</title>
-
+ 
 </head>
 
 <body class="stretched sticky-footer page-transition" data-loader-html="<span class='pizza'> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> </span>">
@@ -52,7 +52,7 @@
 
 					<div class="form-result"></div>
 
-					<form class="mb-0 row" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+					<form class="mb-0 row" id="template-contactform" name="template-contactform" action="http://www.formulario.email/sonhandoalto/include/form.php" method="post"> 
 
 						<div class="form-process">
 							<div class="css3-spinner">

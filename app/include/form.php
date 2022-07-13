@@ -11,14 +11,12 @@
 /*-------------------------------------------------
 	PHPMailer Initialization
 ---------------------------------------------------*/
-
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'phpmailer/src/Exception.php';
-require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
-
+//Load Composer's autoloader
+require '../../../vendor/autoload.php';
 
 /*-------------------------------------------------
 	Receiver's Email
@@ -26,74 +24,75 @@ require 'phpmailer/src/SMTP.php';
 
 $uniao = $_POST['template-contactform-estado'];
 
-switch($uniao)
-{
-    case 'RS';
-    case 'SC';
-    case 'PR';
-		$emailTo = 'luana.souza@adventistas.org';
-		$nomeTo = 'Luana';
-        break;
-	case 'SP';
-		$emailTo = 'eliane.ane@adventistas.org';
-		$nomeTo = 'Eliane';
-        break;
-	case 'MS';
-    case 'MT';
-    case 'TO';
-	case 'DF';
-		$emailTo = 'adriana.costa@adventistas.org';
-		$nomeTo = 'Adriana';
-        break;
-	case 'RJ';
-    case 'MG';
-    case 'ES';
-		$emailTo = 'aila.lacerda@adventistas.org';
-		$nomeTo = 'Aila';
-        break;
-	case 'BA';
-    case 'SE';
-		$emailTo = 'tatiana.penteado@adventistas.org';
-		$nomeTo = 'Tatiana';
-        break;
-	case 'PI';
-    case 'RN';
-    case 'PB';
-	case 'PE';
-	case 'AL';
-	case 'CE';
-		$emailTo = 'jessica.gomes@adventistas.org';
-		$nomeTo = 'Jessica';
-        break;
-	case 'MA';
-    case 'PA';
-    case 'AP';
-		$emailTo = 'kelly.costa@adventistas.org';
-		$nomeTo = 'Kelly';
-        break;
-	case 'RR';
-    case 'AM';
-    case 'AC';
-	case 'RO';
-		$emailTo = 'julia.lorene@adventistas.org';
-		$nomeTo = 'Julia';
-        break;
-	case 'SS';
-		$emailTo = 'simei@ludico.shop';
-		$nomeTo = 'simei';
-        break;
-    default;
-        echo 'Por favor faça uma nova seleção...';
-        break;
-}
+		switch($uniao)
+		{
+			case 'RS';
+			case 'SC';
+			case 'PR';
+				$emailTo = 'luana.souza@adventistas.org';
+				$nomeTo = 'Luana';
+				break;
+			case 'SP';
+				$emailTo = 'eliane.ane@adventistas.org';
+				$nomeTo = 'Eliane';
+				break;
+			case 'MS';
+			case 'MT';
+			case 'TO';
+			case 'DF';
+				$emailTo = 'adriana.costa@adventistas.org';
+				$nomeTo = 'Adriana';
+				break;
+			case 'RJ';
+			case 'MG';
+			case 'ES';
+				$emailTo = 'aila.lacerda@adventistas.org';
+				$nomeTo = 'Aila';
+				break;
+			case 'BA';
+			case 'SE';
+				$emailTo = 'tatiana.penteado@adventistas.org';
+				$nomeTo = 'Tatiana';
+				break;
+			case 'PI';
+			case 'RN';
+			case 'PB';
+			case 'PE';
+			case 'AL';
+			case 'CE';
+				$emailTo = 'jessica.gomes@adventistas.org';
+				$nomeTo = 'Jessica';
+				break;
+			case 'MA';
+			case 'PA';
+			case 'AP';
+				$emailTo = 'kelly.costa@adventistas.org';
+				$nomeTo = 'Kelly';
+				break;
+			case 'RR';
+			case 'AM';
+			case 'AC';
+			case 'RO';
+				$emailTo = 'julia.lorene@adventistas.org';
+				$nomeTo = 'Julia';
+				break;
+			case 'SS';
+				$emailTo = 'simei@smoler.com.br';
+				$nomeTo = 'simei';
+				break;
+			default;
+				$emailTo = 'simei@smoler.com.br';
+				$nomeTo = 'simei smoler';
+				break;
+		}
 
 
-$toemails = array();
+		$toemails = array();
 
-$toemails[] = array(
-				'email' => ''.$emailTo.'', // Your Email Address
-				'name' => ''.$nomeTo.'' // Your Name
-			);
+		$toemails[] = array(
+						'email' => ''.$emailTo.'', // Your Email Address
+						'name' => ''.$nomeTo.'' // Your Name
+					);
 
 
 /*-------------------------------------------------
@@ -101,9 +100,9 @@ $toemails[] = array(
 ---------------------------------------------------*/
 
 $fromemail = array(
-				'email' => 'naoresponder@sonhandoaltobrasil.com', // Company's Email Address (preferably currently used Domain Name)
-				'name' => 'Sonhando Alto Brasil' // Company Name
-			);
+    'email' => 'naoresponder@sonhandoaltobrasil.com', // Company's Email Address (preferably currently used Domain Name)
+    'name' => 'Sonhando Alto Brasil' // Company Name
+);
 
 
 /*-------------------------------------------------
@@ -118,18 +117,7 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 	PHPMailer Initialization
 ---------------------------------------------------*/
 
-$mail = new PHPMailer();
-
- $mail->IsSMTP(); 
- $mail->CharSet = 'UTF-8';
- $mail->SMTPDebug = 4;
- $mail->Mailer = "smtp";
- $mail->Host = "mail.formulario.email"; // Servidor SMTP
- $mail->Port = 465; 
- $mail->SMTPAuth = true;
- $mail->SMTPSecure = 'tls';
- $mail->Username = "sonhandoalto@formulario.email"; // SMTP username
- $mail->Password = "S0nh@ndoAlt0"; // SMTP password
+$mail = new PHPMailer(true);
 
 /* Add your SMTP Codes after this Line */
 
@@ -142,12 +130,12 @@ $mail = new PHPMailer();
 ---------------------------------------------------*/
 
 $message = array(
-	'success'			=> 'Email <strong>enviado com sucesso</strong> responderemos assim que possivel. '.	$teste.'',
-	'error'				=> 'Email <strong>não pôde</strong> ser enviado. Tente novamente.',
-	'error_bot'			=> 'Bot Detectado! formulário não pôde ser enviado, tente novamente',
-	'error_unexpected'	=> 'Um <strong>erro inesperado</strong> ocorreu. Tente mais tarder.',
-	'recaptcha_invalid'	=> 'Captcha não validado! Tente novamente!',
-	'recaptcha_error'	=> 'Captcha não enviado! Tente novamente.'
+	'success'			=> 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.',
+	'error'				=> 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.',
+	'error_bot'			=> 'Bot Detected! Form could not be processed! Please Try Again!',
+	'error_unexpected'	=> 'An <strong>unexpected error</strong> occured. Please Try Again later.',
+	'recaptcha_invalid'	=> 'Captcha not Validated! Please Try Again!',
+	'recaptcha_error'	=> 'Captcha not Submitted! Please Try Again.'
 );
 
 
@@ -252,7 +240,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	}
 
 	$template	= !empty( $submits['template'] ) ? $submits['template'] : 'html';
-	$html_title	= !empty( $submits['html_title'] ) ? $submits['html_title'] : 'Formulário Sonhando Alto';
+	$html_title	= !empty( $submits['html_title'] ) ? $submits['html_title'] : 'Form Response';
 	$forcerecap	= ( !empty( $submits['force_recaptcha'] ) && $submits['force_recaptcha'] != 'false' ) ? true : false;
 	$replyto	= !empty( $submits['replyto'] ) ? explode( ',', $submits['replyto'] ) : false;
 
@@ -281,7 +269,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Copyrights &copy; ' . date('Y') . ' <strong>SemiColonWeb</strong>. All Rights Reserved.';
 
-	$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Formulário Sonhando Alto '.$teste.'';
+	$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Form Response from your Website';
 	$mail->SetFrom( $fromemail['email'] , $fromemail['name'] );
 
 	if( !empty( $replyto ) ) {
@@ -298,9 +286,6 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	foreach( $toemails as $toemail ) {
 		$mail->AddAddress( $toemail['email'] , $toemail['name'] );
 	}
-
-	$mail->addBCC('paulo.pinheiro@adventistas.org', 'Pr. Paulo');
-	$mail->addBCC('alan.araujo@adventistas.org', 'Pr. Alan');
 
 	$unsets = array( 'prefix', 'subject', 'replyto', 'template', 'html_title', 'message', 'autoresponder', 'ar_subject', 'ar_title', 'ar_message', 'ar_footer', $prefix . 'botcheck', 'g-recaptcha-response', 'force_recaptcha', $prefix . 'submit' );
 
@@ -367,7 +352,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		}
 	}
 
-	$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>Email enviado de: ' . $_SERVER['HTTP_REFERER'] : '';
+	$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
 
 	$html_before = '<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" bgcolor="#eeeeee" style="width: 100%; height: 100%; padding: 50px 0 50px 0;">
 				<tr>

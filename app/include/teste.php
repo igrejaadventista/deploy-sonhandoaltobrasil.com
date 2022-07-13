@@ -1,54 +1,59 @@
 <?php
+
+echo "hello world";
+
+
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require '../../../vendor/autoload.php';
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+try {
+    //Server settings
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'mail.formulario.email';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'sonhandoalto@formulario.email';                     //SMTP username
+    $mail->Password   = 'S0nh@ndoAlt0';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    //Recipients
+    $mail->setFrom('no-replay@sonhandoaltobrasil.com', 'Sonhando Alto');
+    $mail->addAddress('simei@smoler.com.br', 'simei smoler');     //Add a recipient
+    //$mail->addAddress('ellen@example.com');               //Name is optional
+    //$mail->addReplyTo('info@example.com', 'Information');
+    //$mail->addCC('cc@example.com');
+    //$mail->addBCC('bcc@example.com');
+
+    //Attachments
+ //   $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
+ //   $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Here is the subject';
+    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+    $mail->send();
+    echo 'Message has been sent';
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}
 /*-------------------------------------------------
 
 	Form Processor Plugin
 	by SemiColonWeb
 
 ---------------------------------------------------*/
-
-
-/*-------------------------------------------------
-	PHPMailer Initialization
----------------------------------------------------*/
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception; 
-
-require 'phpmailer/src/Exception.php';
-require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
-
-$mailDestino = "simei@smoler.com.br";
-$nome = "simei smoler";
-$assunto = "teste";
-$mensagem = "ola";
-
- $mail = new PHPMailer();
- $mail->IsSMTP(); // enable SMTP
- $mail->CharSet = 'UTF-8';
- $mail->SMTPDebug = 1;
- $mail->Mailer = "smtp";
- $mail->Timeout =   60; // set the timeout (seconds)
- $mail->Host = "mail.formulario.email"; // Servidor SMTP
- $mail->Port = 465; 
- $mail->SMTPAuth = true;
- $mail->SMTPSecure = 'tls';
- $mail->IsHTML(true);
- $mail->Username = "sonhandoalto@formulario.email"; // SMTP username
- $mail->Password = "S0nh@ndoAlt0"; // SMTP password
- $mail->AddAddress($mailDestino, $nome); // Email e nome de quem receberá //Responder
- $mail->WordWrap = 50; // Definir quebra de linha
- $mail->IsHTML = true ; // Enviar como HTML
- $mail->Subject = $assunto ; // Assunto
- $mail->Body = '<br/>' . $mensagem . '<br/>' ; //Corpo da mensagem caso seja HTML
- $mail->AltBody = "$mensagem" ; //PlainText, para caso quem receber o email não aceite o corpo HTML
-
- if($mail->send()){
-    echo 'mensagem enviadat';
-}else{
-    echo 'não pode ser enviada.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
-}
-
 
 ?>

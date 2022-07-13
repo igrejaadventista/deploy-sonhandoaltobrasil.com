@@ -1,5 +1,4 @@
-<?php
-
+<?
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -7,7 +6,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require '../../../vendor/autoload.php';
+require '../vendor/autoload.php';
 
 
 
@@ -418,12 +417,114 @@ try {
 		$mail->MsgHTML( $body );
 		$mail->CharSet = "UTF-8";
 		$mail->send();
-		echo 'Message has been sent';
+		
+        $msgReturn = "OK";
 
 } catch (Exception $e) {
 
-echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        $msgReturn = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 
 }
-
 ?>
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+    <? include_once "meta.php";?>
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,600,700,800,900|Poppins:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/components/datepicker.css" type="text/css" />
+
+	<!-- restaurant Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/restaurant/restaurant.css" type="text/css" />
+	<link rel="stylesheet" href="demos/restaurant/css/fonts.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="css/colors.php?color=f68c3d" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Sonhando Alto - Inscreva-se</title>
+ 
+</head>
+
+<body class="stretched sticky-footer page-transition" data-loader-html="<span class='pizza'> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> </span>">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+    <? include_once "menu.php";?>
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element slider-reservation h-auto include-header">
+
+			<div class="gmap min-vh-60 min-vh-lg-100" style="background-image: url('demos/restaurant/images/vem.jpg'); background-size: cover"></div>
+
+			<div class="p-5 reservation-form rounded bg-white">
+				<h3 class="font-secondary h1 color">Inscreva-se</h3>
+
+
+				<div class="form-widget mt-4 mt-lg-0" data-loader="button">
+
+					<div class="form-result"></div>
+
+					
+                    <?=$msgReturn;?>
+
+				</div>
+			</div>
+
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+		</section><!-- #content end -->
+
+		<? include_once "base.php";?>
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-line-arrow-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+
+	<!-- Travel Demo Specific Script -->
+	<script src="js/components/datepicker.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+
+		$(function() {
+			$('.travel-date-group').datepicker({
+				autoclose: true,
+				startDate: "today",
+				todayHighlight: true
+			});
+		});
+
+
+	</script>
+
+</body>
+</html>
