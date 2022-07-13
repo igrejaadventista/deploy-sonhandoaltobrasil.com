@@ -18,9 +18,11 @@ error_reporting(E_ALL);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'phpmailer/src/Exception.php';
-require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
+require 'include/phpmailer/src/Exception.php';
+require 'include/phpmailer/src/PHPMailer.php';
+require 'include/phpmailer/src/SMTP.php';
+
+
 
 /*-------------------------------------------------
 	Receiver's Email
