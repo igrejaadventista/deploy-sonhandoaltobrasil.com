@@ -1,4 +1,8 @@
 <?php
+ini_set('error_reporting', E_ALL);
+error_reporting(E_ALL);
+
+// Same as error_reporting(E_ALL);
 
 /*-------------------------------------------------
 
@@ -12,11 +16,11 @@
 	PHPMailer Initialization
 ---------------------------------------------------*/
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader
-require '../../vendor/autoload.php';
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
 
 /*-------------------------------------------------
 	Receiver's Email
@@ -526,7 +530,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 					<div class="form-result"></div>
 
-					<?=$msgReturn?>
+					<?=$msgReturn;?>
 
 				</div>
 			</div>
@@ -558,7 +562,17 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	============================================= -->
 	<script src="js/functions.js"></script>
 
+	<script>
 
+		$(function() {
+			$('.travel-date-group').datepicker({
+				autoclose: true,
+				startDate: "today",
+				todayHighlight: true
+			});
+		});
+
+	</script>
 
 </body>
 </html>
