@@ -272,6 +272,7 @@ $(document).ready(function() {
 			alert('Universidade Obrigatório');
 			return false;
 		} 
+
 		
 	});
 	
@@ -279,6 +280,8 @@ $(document).ready(function() {
 	
 	
 });
+
+
 
 </script>
 
