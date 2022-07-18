@@ -6,10 +6,10 @@ error_reporting(E_ALL);
 
 echo  __DIR__ ;
 
-$dir    = '../../';
+$dir    = '../../../';
 $files1 = scandir($dir);
 
-
+/*
 function dirToArray($dir) {
   
     $result = array();
@@ -32,7 +32,7 @@ function dirToArray($dir) {
    
     return $result;
  }
-
+*/
  dirToArray($dir);
 
 print_r(dirToArray($dir));
