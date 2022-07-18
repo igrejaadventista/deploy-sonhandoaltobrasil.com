@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --force-yes --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Install composer in /usr/lib folder
-    WORKDIR /usr/lib
+WORKDIR /usr/lib 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
     && php composer-setup.php \
     && php -r "unlink('composer-setup.php');"
@@ -21,5 +21,3 @@ RUN php /usr/lib/composer.phar require swiftmailer/swiftmailer @stable
 
 # Install PHPMailer
 RUN php /usr/lib/composer.phar require phpmailer/phpmailer @stable
-
-RUN composer dump-autoload --optimize
