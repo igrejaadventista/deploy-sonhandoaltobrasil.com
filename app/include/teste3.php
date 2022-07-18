@@ -24,7 +24,7 @@ require 'phpmailer/src/SMTP.php';
 	Receiver's Email
 ---------------------------------------------------*/
 
-
+//$uniao = $_POST['template-contactform-estado'];
 $uniao = "--";
 
 switch($uniao)
