@@ -5,12 +5,21 @@ COPY --chown=www-data:www-data app /var/www/html
 
 EXPOSE 80
 
-RUN apt-get update && apt-get install -y \
+# Install git and other packaes
+RUN apt-get update && apt-get install -y --force-yes --no-install-recommends \
     git \
-    curl \
-    zip \
-    unzip
+    && rm -rf /var/lib/apt/lists/*
 
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
+# Install composer in /usr/lib folder
 WORKDIR /var/www
+RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
+    && php composer-setup.php \
+    && php -r "unlink('composer-setup.php');"
+
+# Install swiftmailer
+RUN php /usr/lib/composer.phar require swiftmailer/swiftmailer @stable
+
+# Install PHPMailer
+RUN php /usr/lib/composer.phar require phpmailer/phpmailer @stable
+
+
