@@ -8,7 +8,7 @@ echo  __DIR__ ;
 
 $dir    = '../../../';
 $files1 = scandir($dir);
-
+ 
 function dirToArray($dir) {
   
     $result = array();
