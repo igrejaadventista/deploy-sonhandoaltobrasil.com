@@ -124,9 +124,8 @@ require 'phpmailer/src/SMTP.php';
 			'levitra'
 		);
 
-$mail = new PHPMailer(true);
+$mail = new PHPMailer();
 
-try {
 		/*-------------------------------------------------
 			Form Processor
 		---------------------------------------------------*/
@@ -404,14 +403,18 @@ try {
 		$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Formulário Sonhando Alto ';
 		$mail->MsgHTML( $body );
 		$mail->CharSet = "UTF-8";
-		$mail->send();
+		$sendEmail = $mail->Send();
 
-		echo '{ "alert": "success", "message": "' . $message['success'] . '" }';
+		if( $sendEmail == true ):
 
-} catch (Exception $e) {
+			if( $autores && !empty( $replyto_e ) ) {
+				$send_arEmail = $autoresponder->Send();
+			}
 
-		echo '{ "alert": "error", "message": "' . $message['error'] . '<br><br><strong>Reason:</strong><br>' . $mail->ErrorInfo . '" }';
+			echo '{ "alert": "success", "message": "' . $message['success'] . '" }';
+		else:
+			echo '{ "alert": "error", "message": "' . $message['error'] . '<br><br><strong>Reason:</strong><br>' . $mail->ErrorInfo . '" }';
+		endif;
 
-}
 
 ?>
