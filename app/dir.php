@@ -9,7 +9,6 @@ echo  __DIR__ ;
 $dir    = '../../../';
 $files1 = scandir($dir);
 
-/*
 function dirToArray($dir) {
   
     $result = array();
@@ -32,7 +31,7 @@ function dirToArray($dir) {
    
     return $result;
  }
-*/
+
  dirToArray($dir);
 
 print_r(dirToArray($dir));
