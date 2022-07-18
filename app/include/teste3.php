@@ -24,8 +24,8 @@ require 'phpmailer/src/SMTP.php';
 	Receiver's Email
 ---------------------------------------------------*/
 
-//$uniao = $_POST['template-contactform-estado'];
-$uniao = "--";
+$uniao = $_POST['template-contactform-estado'];
+//$uniao = "--";
 
 switch($uniao)
 {
@@ -152,7 +152,6 @@ $spam_keywords = array(
 ---------------------------------------------------*/
 
 
-
 	$prefix		= !empty( $_POST['prefix'] ) ? $_POST['prefix'] : '';
 	$submits	= $_POST;
 	$botpassed	= false;
@@ -213,28 +212,7 @@ $spam_keywords = array(
 		reCaptcha
 	---------------------------------------------------*/
 
-	if( isset( $submits['g-recaptcha-response'] ) ) {
-
-		$recaptcha_data = array(
-			'secret' => $recaptcha_secret,
-			'response' => $submits['g-recaptcha-response']
-		);
-
-		$recap_verify = curl_init();
-		curl_setopt( $recap_verify, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify" );
-		curl_setopt( $recap_verify, CURLOPT_POST, true );
-		curl_setopt( $recap_verify, CURLOPT_POSTFIELDS, http_build_query( $recaptcha_data ) );
-		curl_setopt( $recap_verify, CURLOPT_SSL_VERIFYPEER, false );
-		curl_setopt( $recap_verify, CURLOPT_RETURNTRANSFER, true );
-		$recap_response = curl_exec( $recap_verify );
-
-		$g_response = json_decode( $recap_response );
-
-		if ( $g_response->success !== true ) {
-			echo '{ "alert": "error", "message": "' . $message['recaptcha_invalid'] . '" }';
-			exit;
-		}
-	}
+	
 
 	$template	= !empty( $submits['template'] ) ? $submits['template'] : 'html';
 	$html_title	= !empty( $submits['html_title'] ) ? $submits['html_title'] : 'Form Response';
