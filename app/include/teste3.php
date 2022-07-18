@@ -269,8 +269,7 @@ $spam_keywords = array(
 
 	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Copyrights &copy; ' . date('Y') . ' <strong>SemiColonWeb</strong>. All Rights Reserved.';
 
-	$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Form Response from your Website';
-	$mail->SetFrom( $fromemail['email'] , $fromemail['name'] );
+	
 
 	if( !empty( $replyto ) ) {
 		if( count( $replyto ) > 1 ) {
@@ -283,9 +282,7 @@ $spam_keywords = array(
 		}
 	}
 
-	foreach( $toemails as $toemail ) {
-		$mail->AddAddress( $toemail['email'] , $toemail['name'] );
-	}
+
 
 	$unsets = array( 'prefix', 'subject', 'replyto', 'template', 'html_title', 'message', 'autoresponder', 'ar_subject', 'ar_title', 'ar_message', 'ar_footer', $prefix . 'botcheck', 'g-recaptcha-response', 'force_recaptcha', $prefix . 'submit' );
 
@@ -406,9 +403,6 @@ $spam_keywords = array(
 	if( $autores && !empty( $replyto_e ) ) {
 		$autoresponder = new PHPMailer();
 
-		/* Add your Auto-Responder SMTP Codes after this Line */
-
-
 		// End of Auto-Responder SMTP
 
 		$autoresponder->SetFrom( $fromemail['email'] , $fromemail['name'] );
@@ -454,6 +448,11 @@ $spam_keywords = array(
 
 	$mail->MsgHTML( $body );
 	$mail->CharSet = "UTF-8";
+    $mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Form Response from your Website';
+    foreach( $toemails as $toemail ) {
+		$mail->AddAddress( $toemail['email'] , $toemail['name'] );
+	}
+	$mail->SetFrom( $fromemail['email'] , $fromemail['name'] );
 	$sendEmail = $mail->Send();
 
 	if( $sendEmail == true ):
