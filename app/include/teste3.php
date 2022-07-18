@@ -119,9 +119,6 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 
 $mail = new PHPMailer();
 
-/* Add your SMTP Codes after this Line */
-
-
 // End of SMTP
 
 
