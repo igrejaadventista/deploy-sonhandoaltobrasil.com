@@ -32,5 +32,8 @@ function dirToArray($dir) {
     return $result;
  }
 
-dirToArray($dir);
+ dirToArray($dir);
+
+print_r(dirToArray($dir));
+
 ?>
