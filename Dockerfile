@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --force-yes --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Install composer in /usr/lib folder
-WORKDIR /var/www
+WORKDIR /usr/lib
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
     && php composer-setup.php \
     && php -r "unlink('composer-setup.php');"
