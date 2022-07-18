@@ -22,4 +22,4 @@ RUN php /usr/lib/composer.phar require swiftmailer/swiftmailer @stable
 # Install PHPMailer
 RUN php /usr/lib/composer.phar require phpmailer/phpmailer @stable
 
-RUN composer dump-autoload --optimize
+RUN composer dump-autoload --optimize 
