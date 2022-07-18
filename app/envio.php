@@ -13,6 +13,9 @@ require 'include/phpmailer/src/Exception.php';
 require 'include/phpmailer/src/PHPMailer.php';
 require 'include/phpmailer/src/SMTP.php';
 
+//Load Composer's autoloader
+require 'autoload.php';
+
 /*-------------------------------------------------
 	Receiver's Email
 ---------------------------------------------------*/

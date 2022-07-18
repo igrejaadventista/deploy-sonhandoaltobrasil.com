@@ -19,6 +19,9 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
+//Load Composer's autoloader
+require '../vendor/autoload.php';
+
 /*-------------------------------------------------
 	Receiver's Email
 ---------------------------------------------------*/
