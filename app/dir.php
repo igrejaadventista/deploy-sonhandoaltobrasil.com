@@ -1,4 +1,5 @@
 <?php
+echo "diretorio------";
 ini_set('error_reporting', E_ALL);
 error_reporting(E_ALL);
 
