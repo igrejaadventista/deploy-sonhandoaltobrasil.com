@@ -21,7 +21,3 @@ RUN php /usr/lib/composer.phar require swiftmailer/swiftmailer @stable
 
 # Install PHPMailer
 RUN php /usr/lib/composer.phar require phpmailer/phpmailer @stable
-
-RUN php composer update --no-scripts 
-
-RUN php composer update
