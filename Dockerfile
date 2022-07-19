@@ -17,7 +17,7 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
     && php -r "unlink('composer-setup.php');"
 
 # Install swiftmailer
-RUN php /usr/lib/composer.phar require swiftmailer/swiftmailer --force-yes @stable
+RUN php /usr/lib/composer.phar require swiftmailer/swiftmailer @stable
 
 # Install PHPMailer
-RUN php /usr/lib/composer.phar require phpmailer/phpmailer --force-yes @stable
+RUN php /usr/lib/composer.phar require phpmailer/phpmailer @stable
