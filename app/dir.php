@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 echo  __DIR__ ;
 
-$dir    = '../../../';
+$dir    = '../';
 $files1 = scandir($dir);
  
 function dirToArray($dir) {
