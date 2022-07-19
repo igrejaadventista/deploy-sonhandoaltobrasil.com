@@ -6,8 +6,18 @@ error_reporting(E_ALL);
 
 echo  __DIR__ ;
 
-$dir    = '../../../';
+$dir    = '../';
 $files1 = scandir($dir);
+print_r($files1);
+
+$dir2    = '../../';
+$files2 = scandir($dir2);
+print_r($files2);
+
+$dir3    = '../../../';
+$files3 = scandir($dir3);
+print_r($files3);
+
  
 /*
 function dirToArray($dir) {
@@ -37,6 +47,6 @@ function dirToArray($dir) {
 
 print_r(dirToArray($dir)); */
 
-print_r($files1);
+
 
 ?>
