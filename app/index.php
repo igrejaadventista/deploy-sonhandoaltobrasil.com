@@ -228,7 +228,7 @@
 							<div class="oc-item">
 								<div class="portfolio-item">
 									<div>
-									
+									 
 											<img src="images/videos_pastores/6-Pr-Gilberto-Basiilio.jpg" alt="Gilberto Basílio">
 										
 										<div class="bg-overlay">
