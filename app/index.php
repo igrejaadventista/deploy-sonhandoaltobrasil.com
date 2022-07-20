@@ -107,6 +107,282 @@
 				<div class="container section-contact clearfix">
 					<div class="row clearfix">
 
+						
+
+						<div class="heading-block border-bottom-0 bottommargin-sm">
+							<h2 class="font-secondary color nott" style="font-size: 52px;">Aceite o convite dos nossos líderes!</h2>
+						</div>
+
+						<div id="related-portfolio" class="owl-carousel portfolio-carousel owl-carousel-full footer-stick carousel-widget" data-margin="20" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-md="5" data-items-xl="5">
+						
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/1-Pr-Joao-Vicente-Pereyra.jpg" alt="João Vicente Pereyra">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/1-Pr-Joao-Vicente-Pereyra.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. João Vicente Pereyra</h3>
+										<span>CPB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/2-Pr-Ivan-Nascimento.jpg" alt="Ivan Nascimento">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/2-Pr-Ivan-Nascimento.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Ivan Nascimento</h3>
+										<span>UNB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/3-Pr-Jason.jpg" alt="Pr. Jason Rosa">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/3-Pr-Jason.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Jason Rosa</h3>
+										<span>UNEB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/4-Pr-Reginaldo.jpg" alt="Reginaldo Paulino">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/4-Pr-Reginaldo.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Reginaldo Paulino</h3>
+										<span>ULB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/5-Pr-Fabiano-Paulo.jpg" alt="Fabiano Paulo">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/5-Pr-Fabiano-Paulo.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Fabiano Paulo</h3>
+										<span>UNOB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/6-Pr-Gilberto-Basílio.jpg" alt="Gilberto Basílio">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/6-Pr-Gilberto-Basílio.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Gilberto Basílio</h3>
+										<span>USEB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/7-Pr-Helio-Machado.jpg" alt="Hélio Machado">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/7-Pr-Helio-Machado.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Hélio Machado</h3>
+										<span>USB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/8-Pr-Marcos-Souza.jpg" alt="Marcos Souza">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/8-Pr-Marcos-Souza.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Marcos Souza</h3>
+										<span>UCOB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/9-Pr-Marco-Aurelio-Pinho.jpg" alt="Marco Aurélio">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/9-Pr-Marco-Aurelio-Pinho.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Marco Aurélio</h3>
+										<span>UCB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/10-Pr-Paulo-Pinheiro.jpg" alt="Pr. Paulo Pinheiro">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/10-Pr-Paulo-Pinheiro.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Paulo Pinheiro</h3>
+										<span>IDEC UNASP</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/11-Pr-Alan-Araujo.jpg" alt="Alan Araújo">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/11-Pr-Alan-Araujo.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Alan Araújo</h3>
+										<span>IDEC FADBA</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/12-Pr-Adilson-Morais.jpg" alt="Adilson Morais">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/12-Pr-Adilson-Morais.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Adilson de Morais</h3>
+										<span>DSA</span>
+									</div>
+								</div>
+
+							</div>
+						
+		
+						</div><!-- .portfolio-carousel end -->
+
+						
 						<div class="col-lg-4 col-md-6 bottommargin-sm center">
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clock"></i>
 							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Horário de Atendimento</h3>
@@ -144,275 +420,6 @@
 							</div>
 						</div>
 
-
-						<div id="related-portfolio" class="owl-carousel portfolio-carousel owl-carousel-full footer-stick carousel-widget" data-margin="20" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-md="5" data-items-xl="5">
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/1-Pr-Joao-Vicente-Pereyra.jpg" alt="João Vicente Pereyra">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/1-Pr-Joao-Vicente-Pereyra.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. João Vicente Pereyra</h3>
-									<span>CPB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/2-Pr-Ivan-Nascimento.jpg" alt="Ivan Nascimento">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/2-Pr-Ivan-Nascimento.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Ivan Nascimento</h3>
-									<span>UNB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/3-Pr-Jason.jpg" alt="Pr. Jason Rosa">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/3-Pr-Jason.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Jason Rosa</h3>
-									<span>UNEB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/4-Pr-Reginaldo.jpg" alt="Reginaldo Paulino">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/4-Pr-Reginaldo.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Reginaldo Paulino</h3>
-									<span>ULB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/5-Pr-Fabiano-Paulo.jpg" alt="Fabiano Paulo">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/5-Pr-Fabiano-Paulo.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Fabiano Paulo</h3>
-									<span>UNOB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/6-Pr-Gilberto-Basílio.jpg" alt="Gilberto Basílio">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/6-Pr-Gilberto-Basílio.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Gilberto Basílio</h3>
-									<span>USEB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/7-Pr-Helio-Machado.jpg" alt="Hélio Machado">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/7-Pr-Helio-Machado.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Hélio Machado</h3>
-									<span>USB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/8-Pr-Marcos-Souza.jpg" alt="Marcos Souza">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/8-Pr-Marcos-Souza.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Marcos Souza</h3>
-									<span>UCOB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/9-Pr-Marco-Aurelio-Pinho.jpg" alt="Marco Aurélio">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/9-Pr-Marco-Aurelio-Pinho.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Marco Aurélio</h3>
-									<span>UCB</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/10-Pr-Paulo-Pinheiro.jpg" alt="Pr. Paulo Pinheiro">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/10-Pr-Paulo-Pinheiro.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Paulo Pinheiro</h3>
-									<span>IDEC UNASP</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/11-Pr-Alan-Araujo.jpg" alt="Alan Araújo">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/11-Pr-Alan-Araujo.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Alan Araújo</h3>
-									<span>IDEC FADBA</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div>
-								
-										<img src="images/videos_pastores/12-Pr-Adilson-Morais.jpg" alt="Adilson Morais">
-									
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-										<a href="images/videos_pastores/12-Pr-Adilson-Morais.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        </div>
-                                        
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Pr. Adilson de Morais</h3>
-									<span>DSA</span>
-								</div>
-							</div>
-
-						</div>
-						
-		
-					</div><!-- .portfolio-carousel end -->
 
 					</div>
 				</div>
