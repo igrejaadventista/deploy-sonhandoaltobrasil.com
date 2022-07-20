@@ -461,7 +461,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 	$mail->MsgHTML( $body );
 	$mail->CharSet = "UTF-8";
-	$sendEmail = $mail->Send();
+	$sendEmail = $mail->Send(); 
 
 	if( $sendEmail == true ):
 
