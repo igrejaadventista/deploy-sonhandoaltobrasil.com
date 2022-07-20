@@ -244,7 +244,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	}
 
 	$template	= !empty( $submits['template'] ) ? $submits['template'] : 'html';
-	$html_title	= !empty( $submits['html_title'] ) ? $submits['html_title'] : 'Form Response';
+	$html_title	= !empty( $submits['html_title'] ) ? $submits['html_title'] : 'Formuário Sonhando Alto';
 	$forcerecap	= ( !empty( $submits['force_recaptcha'] ) && $submits['force_recaptcha'] != 'false' ) ? true : false;
 	$replyto	= !empty( $submits['replyto'] ) ? explode( ',', $submits['replyto'] ) : false;
 

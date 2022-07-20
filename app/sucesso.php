@@ -45,7 +45,7 @@
 
 			<div class="container clearfix">
                 <img src="images/tit_sucesso.png">
-				<span class="fw-normal">Histórias de quem já deu o PRIMEIRO PASSO<br> e de quem já se FORMOU pelo Sonhando Alto</span>
+				<span class="fw-normal">Histórias de quem já deu o PRIMEIRO PASSO<br> e de quem já se FORMOU pelo Sonhando Alto.</span>
 			</div>
             <div style="position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url('demos/restaurant/images/sketch2.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-bottom: -10px;"></div>
 		</section><!-- #page-title end -->
@@ -315,10 +315,10 @@ Grande parte das minhas conquistas eu devo a Colportagem, de maneira especial ao
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-										<h3>Dr. Pedro Henrique
-Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacientes com déficits neurológicas
+										<h3>
 </h3>
-                                            <span class="subtitle">Tive a honra de participar em 2 ocasiões no projeto sonhando alto. Momentos esses que aprendi de fato a depender totalmente de Deus e que me levaram a realização do sonho profissional. Maranata!</span>
+                                            <span class="subtitle">Sou o Dr. Pedro Henrique,
+Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacientes com déficits neurológicas.<br>Tive a honra de participar em 2 ocasiões no projeto sonhando alto. Momentos esses que aprendi de fato a depender totalmente de Deus e que me levaram a realização do sonho profissional. Maranata!</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -360,8 +360,8 @@ Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacien
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-										<h3>Pr. Ademir Antunes Distrito de São Lourenço - MG Associação Mineira Sul</h3>
-                                            <span class="subtitle">Participar do Sonhando alto foi fundamental para desenvolver as competências de liderança em minha vida</span>
+										<h3></h3>
+                                            <span class="subtitle">Sou Pr. Ademir Antunes Distrito de São Lourenço - MG Associação Mineira Sul. <br>Participar do Sonhando alto foi fundamental para desenvolver as competências de liderança em minha vida</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -403,9 +403,7 @@ Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacien
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-										<h3>Dra. Carla Naiza - Escrivã polícia Civil, Rurópolis-PA
-</h3>
-                                            <span class="subtitle">O projeto sonhando alto foi um divisor de águas na minha vida. Pois, foi através deste projeto que eu tive condições financeiras para ingressar no curso de Direito no UNASP e realizar o meu sonho de ser uma Advogada. Além disso, até hoje eu aplico na minha vida pessoal e profissional técnicas que aprendi no projeto.</span>
+                                            <span class="subtitle">Sou a Dra. Carla Naiza - Escrivã polícia Civil, Rurópolis-PA. <br>O projeto sonhando alto foi um divisor de águas na minha vida. Pois, foi através deste projeto que eu tive condições financeiras para ingressar no curso de Direito no UNASP e realizar o meu sonho de ser uma Advogada. Além disso, até hoje eu aplico na minha vida pessoal e profissional técnicas que aprendi no projeto.</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">

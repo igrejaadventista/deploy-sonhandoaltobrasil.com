@@ -45,7 +45,7 @@
 			<div class="gmap min-vh-60 min-vh-lg-100" style="background-image: url('demos/restaurant/images/vem.jpg'); background-size: cover"></div>
 
 			<div class="p-5 reservation-form rounded bg-white">
-				<h3 class="font-secondary h1 color">Inscreva-se</h3>
+				<h3 class="font-secondary h1 color">Inscreva-se.</h3>
 				<div>O preenchimento de todos os campos é obrigatório.</div>
 
 				<div class="form-widget mt-4 mt-lg-0" data-loader="button">

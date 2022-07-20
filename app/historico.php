@@ -48,7 +48,7 @@
 
 			<div class="container clearfix">
 			<img src="images/tit_historia.png">
-				<span class="fw-normal">20 anos de sucesso e muitas conquistas</span>
+				<span class="fw-normal">20 anos de sucesso e muitas conquistas.</span>
 			</div>
 			<div style="position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url('demos/restaurant/images/sketch2.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-bottom: -10px;"></div>
 		</section><!-- #page-title end -->
