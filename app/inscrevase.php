@@ -27,7 +27,7 @@
 	<!-- Document Title
 	============================================= -->
 	<title>Sonhando Alto - Inscreva-se</title>
-	
+
 </head>
 
 <body class="stretched sticky-footer page-transition" data-loader-html="<span class='pizza'> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> </span>">
@@ -36,7 +36,7 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-    <? include_once "menu.php";?>
+	<? include_once "menu.php";?>
 
 		<!-- Slider
 		============================================= -->
@@ -47,7 +47,6 @@
 			<div class="p-5 reservation-form rounded bg-white">
 				<h3 class="font-secondary h1 color">Inscreva-se</h3>
 				<div>Todos os todos os campos são obrigatórios.</div>
-
 
 				<div class="form-widget mt-4 mt-lg-0" data-loader="button">
 
@@ -169,6 +168,8 @@
 
 		<? include_once "base.php";?>
 
+	</div><!-- #wrapper end -->
+
 	<!-- Go To Top
 	============================================= -->
 	<div id="gotoTop" class="icon-line-arrow-up"></div>
@@ -177,7 +178,7 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
-
+	<script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script>
 
 	<!-- Travel Demo Specific Script -->
 	<script src="js/components/datepicker.js"></script>
@@ -188,102 +189,16 @@
 
 	<script>
 
-$(document).ready(function() {
-	
-
-	
-	
-	//  Bind the event handler to the "submit" JavaScript event
-	$('#template-contactform').submit(function () {
-
-		// Get the Login Name value and trim it
-		var name = $.trim($('#template-contactform-name').val());
-		var idade = $.trim($('#template-contactform-idade').val());
-		var email = $.trim($('#template-contactform-email').val());
-		var telefone = $.trim($('#template-contactform-celular').val());
-		var instagram = $.trim($('#template-contactform-instagram').val());
-		var cidade = $.trim($('#template-contactform-cidade').val());
-		var cep = $.trim($('#template-contactform-cep').val());
-		var estado = $.trim($('#template-contactform-estado').val());
-		var nivel = $.trim($('#template-contactform-nivel').val());
-		var curso = $.trim($('#template-contactform-curso').val());
-		var universidade = $.trim($('#template-contactform-universidade').val());
+		$(function() {
+			$('.travel-date-group').datepicker({
+				autoclose: true,
+				startDate: "today",
+				todayHighlight: true
+			});
+		});
 
 
-		// Check if empty of not
-		if (name  === '') {
-			alert('Nome Obrigatório');
-			return false;
-		} 
-		
-		// Check if empty of not
-		if (idade  === '') {
-			alert('Idade Obrigatório');
-			return false;
-		} 
-
-		// Check if empty of not
-		if (email  === '') {
-			
-			alert('Email Obrigatório');
-			return false;
-		} 
-		
-		// Check if empty of not
-		if (telefone  === '') {
-			alert('Celular/Whatsapp Obrigatório');
-			return false;
-		} 
-
-		// Check if empty of not
-		if (instagram  === '') {
-			alert('Instagram Obrigatório');
-			return false;
-		} 
-		// Check if empty of not
-		if (cidade  === '') {
-			alert('Cidade Obrigatório');
-			return false;
-		} 
-
-		// Check if empty of not
-		if (cep  === '') {
-			alert('CEP Obrigatório');
-			return false;
-		} 
-
-		// Check if empty of not
-		if (estado  === '') {
-			alert('Estado Obrigatório');
-			return false;
-		} 
-		// Check if empty of not
-		if (nivel  === '') {
-			alert('Nível Obrigatório');
-			return false;
-		} 
-		// Check if empty of not
-		if (curso  === '') {
-			alert('Curso Obrigatório');
-			return false;
-		} 
-		// Check if empty of not
-		if (universidade  === '') {
-			alert('Universidade Obrigatório');
-			return false;
-		} 
-
-		
-	});
-	
-	
-	
-	
-});
-
-
-
-</script>
+	</script>
 
 </body>
 </html>
