@@ -14,7 +14,7 @@ window.SEMICOLON_counterInit = function( $counterEl ){
 		let element		= $(this),
 			elComma		= element.find('span').attr('data-comma'),
 			elSep		= element.find('span').attr('data-sep') || '.',
-			elPlaces	= element.find('span').attr('data-places') || 2;
+			elPlaces	= element.find('span').attr('data-places') || 3;
 
 		let elCommaObj	= {
 			comma : elComma,
@@ -49,6 +49,7 @@ window.SEMICOLON_runCounterInit = function( elCounter, elFormat ){
 			formatter: function (value, options) {
 				value = value.toFixed( options.decimals );
 				value = value.replace( regExp, elFormat.sep );
+				value = value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
 				return value;
 			}
 		});

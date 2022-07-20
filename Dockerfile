@@ -1,10 +1,5 @@
 FROM php:8.0-apache
 
-#copia site app folder
-COPY --chown=www-data:www-data app /var/www/html
-
-EXPOSE 80
-
 # Install git and other packaes
 RUN apt-get update && apt-get install -y --force-yes --no-install-recommends \
     git \
@@ -40,4 +35,10 @@ RUN sed -i '/#!\/bin\/sh/aecho "$(hostname -i)\t$(hostname) $(hostname).localhos
 # And clean up the image
 
 RUN rm -rf /var/lib/apt/lists/*
+
+
+#copia site app folder
+COPY --chown=www-data:www-data app /var/www/html
+
+EXPOSE 80
 
