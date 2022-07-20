@@ -24,12 +24,79 @@ require 'phpmailer/src/SMTP.php';
 	Receiver's Email
 ---------------------------------------------------*/
 
-$toemails = array();
+$uniao = $_POST['template-contactform-estado'];
 
-$toemails[] = array(
-				'email' => 'simeismoler@gmail.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
-			);
+		switch($uniao)
+		{
+			case 'RS';
+			case 'SC';
+			case 'PR';
+				$emailTo = 'luana.souza@adventistas.org';
+				$nomeTo = 'Luana';
+				break;
+			case 'SP';
+				$emailTo = 'eliane.ane@adventistas.org';
+				$nomeTo = 'Eliane';
+				break;
+			case 'MS';
+			case 'MT';
+			case 'TO';
+			case 'DF';
+				$emailTo = 'adriana.costa@adventistas.org';
+				$nomeTo = 'Adriana';
+				break;
+			case 'RJ';
+			case 'MG';
+			case 'ES';
+				$emailTo = 'aila.lacerda@adventistas.org';
+				$nomeTo = 'Aila';
+				break;
+			case 'BA';
+			case 'SE';
+				$emailTo = 'tatiana.penteado@adventistas.org';
+				$nomeTo = 'Tatiana';
+				break;
+			case 'PI';
+			case 'RN';
+			case 'PB';
+			case 'PE';
+			case 'AL';
+			case 'CE';
+				$emailTo = 'jessica.gomes@adventistas.org';
+				$nomeTo = 'Jessica';
+				break;
+			case 'MA';
+			case 'PA';
+			case 'AP';
+				$emailTo = 'kelly.costa@adventistas.org';
+				$nomeTo = 'Kelly';
+				break;
+			case 'RR';
+			case 'AM';
+			case 'AC';
+			case 'RO';
+				$emailTo = 'julia.lorene@adventistas.org';
+				$nomeTo = 'Julia';
+				break;
+			case 'SS';
+				$emailTo = 'simei@smoler.com.br';
+				$nomeTo = 'simei';
+				break;
+			default;
+				$emailTo = 'simei@smoler.com.br';
+				$nomeTo = 'simei smoler';
+				break;
+		}
+
+
+		$toemails = array();
+
+		$toemails[] = array(
+						'email' => ''.$emailTo.'', // Your Email Address
+						'name' => ''.$nomeTo.'' // Your Name
+					);
+
+
 
 
 /*-------------------------------------------------
@@ -193,9 +260,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	---------------------------------------------------*/
 
 	$autores	= ( !empty( $submits['autoresponder'] ) && $submits['autoresponder'] != 'false' ) ? true : false;
-	$ar_subject	= !empty( $submits['ar_subject'] ) ? $submits['ar_subject'] : 'Thanks for your Email';
-	$ar_title	= !empty( $submits['ar_title'] ) ? $submits['ar_title'] : 'Its so good to hear from You!';
-	$ar_message	= !empty( $submits['ar_message'] ) ? $submits['ar_message'] : 'Autoresponder Message';
+	$ar_subject	= !empty( $submits['ar_subject'] ) ? $submits['ar_subject'] : 'Obrigado pelo seu E-mail';
+	$ar_title	= !empty( $submits['ar_title'] ) ? $submits['ar_title'] : 'É tão bom ouvir receber você!';
+	$ar_message	= !empty( $submits['ar_message'] ) ? $submits['ar_message'] : 'Resposta automática';
 
 	preg_match_all('#\{(.*?)\}#', $ar_message, $ar_matches);
 	if( !empty( $ar_matches[1] ) ) {
@@ -204,9 +271,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		}
 	}
 
-	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Copyrights &copy; ' . date('Y') . ' <strong>SemiColonWeb</strong>. All Rights Reserved.';
+	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Copyrights &copy; ' . date('Y') . ' <strong>Sonhando Alto Brasil</strong>. Todos os direitos reservados.';
 
-	$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Form Response from your Website';
+	$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Formulário Sonhando Alto ';
 	$mail->SetFrom( $fromemail['email'] , $fromemail['name'] );
 
 	if( !empty( $replyto ) ) {
@@ -223,6 +290,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	foreach( $toemails as $toemail ) {
 		$mail->AddAddress( $toemail['email'] , $toemail['name'] );
 	}
+
+	$mail->addBCC('paulo.pinheiro@adventistas.org', 'Pr. Paulo');
+	$mail->addBCC('alan.araujo@adventistas.org', 'Pr. Alan');
 
 	$unsets = array( 'prefix', 'subject', 'replyto', 'template', 'html_title', 'message', 'autoresponder', 'ar_subject', 'ar_title', 'ar_message', 'ar_footer', $prefix . 'botcheck', 'g-recaptcha-response', 'force_recaptcha', $prefix . 'submit' );
 
@@ -401,7 +471,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 		echo '{ "alert": "success", "message": "' . $message['success'] . '" }';
 	else:
-		echo '{ "alert": "error", "message": "' . $message['error'] . '<br><br><strong>Reason:</strong><br>' . $mail->ErrorInfo . '" }';
+		echo '{ "alert": "error", "message": "' . $message['error'] . '<br><br><strong>Razão:</strong><br>' . $mail->ErrorInfo . '" }';
 	endif;
 
 } else {
