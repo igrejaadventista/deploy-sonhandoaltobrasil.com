@@ -22,7 +22,7 @@ RUN php /usr/lib/composer.phar require swiftmailer/swiftmailer @stable
 # Install PHPMailer
 RUN php /usr/lib/composer.phar require phpmailer/phpmailer @stable
 
-
+# INSTALL SENDMAIL
 RUN apt-get update && \
     apt-get install -y \
         zlib1g-dev libzip-dev sendmail
