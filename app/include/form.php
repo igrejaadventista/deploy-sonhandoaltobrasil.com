@@ -104,8 +104,8 @@ $uniao = $_POST['template-contactform-estado'];
 ---------------------------------------------------*/
 
 $fromemail = array(
-				'email' => 'no-reply@website.com', // Company's Email Address (preferably currently used Domain Name)
-				'name' => 'Company Name' // Company Name
+				'email' => 'naoresponder@sonhandoaltobrasil.com', // Company's Email Address (preferably currently used Domain Name)
+				'name' => 'Sonhando Alto brasil' // Company Name
 			);
 
 
