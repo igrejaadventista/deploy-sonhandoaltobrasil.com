@@ -76,7 +76,7 @@
 		============================================= -->
 		<section id="content">
 
-			<div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 3;  repeat center bottom; background-size: auto 100%; height: 40px; margin-top: -40px;"></div>
+			<div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 3; height: 40px; margin-top: -40px;"></div>
 
 			<div class="content-wrap" style="overflow: visible;">
 
