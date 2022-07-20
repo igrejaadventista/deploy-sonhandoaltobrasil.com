@@ -134,12 +134,12 @@ $mail = new PHPMailer();
 ---------------------------------------------------*/
 
 $message = array(
-	'success'			=> 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.',
-	'error'				=> 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.',
-	'error_bot'			=> 'Bot Detected! Form could not be processed! Please Try Again!',
-	'error_unexpected'	=> 'An <strong>unexpected error</strong> occured. Please Try Again later.',
-	'recaptcha_invalid'	=> 'Captcha not Validated! Please Try Again!',
-	'recaptcha_error'	=> 'Captcha not Submitted! Please Try Again.'
+	'success'			=> 'Email <strong>enviado com sucesso</strong> responderemos assim que possivel.',
+	'error'				=> 'Email <strong>não pôde</strong> ser enviado. Tente novamente.',
+	'error_bot'			=> 'Bot Detectado! formulário não pôde ser enviado, tente novamente',
+	'error_unexpected'	=> 'Um <strong>erro inesperado</strong> ocorreu. Tente mais tarder.',
+	'recaptcha_invalid'	=> 'Captcha não validado! Tente novamente!',
+	'recaptcha_error'	=> 'Captcha não enviado! Tente novamente.'
 );
 
 
