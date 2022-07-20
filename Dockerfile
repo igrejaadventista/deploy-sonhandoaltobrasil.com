@@ -21,3 +21,5 @@ RUN php /usr/lib/composer.phar require swiftmailer/swiftmailer @stable
 
 # Install PHPMailer
 RUN php /usr/lib/composer.phar require phpmailer/phpmailer @stable
+
+RUN apt-get install sendmail-bin
