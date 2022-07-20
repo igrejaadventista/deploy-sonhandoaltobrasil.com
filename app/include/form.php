@@ -24,86 +24,23 @@ require 'phpmailer/src/SMTP.php';
 	Receiver's Email
 ---------------------------------------------------*/
 
-$uniao = $_POST['template-contactform-estado'];
-//$uniao = "--";
-
-switch($uniao)
-{
-    case 'RS';
-    case 'SC';
-    case 'PR';
-        $emailTo = 'luana.souza@adventistas.org';
-        $nomeTo = 'Luana';
-        break;
-    case 'SP';
-        $emailTo = 'eliane.ane@adventistas.org';
-        $nomeTo = 'Eliane';
-        break;
-    case 'MS';
-    case 'MT';
-    case 'TO';
-    case 'DF';
-        $emailTo = 'adriana.costa@adventistas.org';
-        $nomeTo = 'Adriana';
-        break;
-    case 'RJ';
-    case 'MG';
-    case 'ES';
-        $emailTo = 'aila.lacerda@adventistas.org';
-        $nomeTo = 'Aila';
-        break;
-    case 'BA';
-    case 'SE';
-        $emailTo = 'tatiana.penteado@adventistas.org';
-        $nomeTo = 'Tatiana';
-        break;
-    case 'PI';
-    case 'RN';
-    case 'PB';
-    case 'PE';
-    case 'AL';
-    case 'CE';
-        $emailTo = 'jessica.gomes@adventistas.org';
-        $nomeTo = 'Jessica';
-        break;
-    case 'MA';
-    case 'PA';
-    case 'AP';
-        $emailTo = 'kelly.costa@adventistas.org';
-        $nomeTo = 'Kelly';
-        break;
-    case 'RR';
-    case 'AM';
-    case 'AC';
-    case 'RO';
-        $emailTo = 'julia.lorene@adventistas.org';
-        $nomeTo = 'Julia';
-        break;
-    case 'SS';
-        $emailTo = 'simei@smoler.com.br';
-        $nomeTo = 'simei';
-        break;
-    default;
-        $emailTo = 'simei@smoler.com.br';
-        $nomeTo = 'simei smoler';
-        break;
-}
-
-
 $toemails = array();
 
 $toemails[] = array(
-                'email' => ''.$emailTo.'', // Your Email Address
-                'name' => ''.$nomeTo.'' // Your Name
-            );
+				'email' => 'your-email@website.com', // Your Email Address
+				'name' => 'Your Name' // Your Name
+			);
+
+
 /*-------------------------------------------------
-    Sender's Email
+	Sender's Email
 ---------------------------------------------------*/
 
 $fromemail = array(
-                'email' => 'naoresponder@sonhandoaltobrasil.com', // Company's Email Address (preferably currently used Domain Name)
-                'name' => 'Sonhando Alto Brasil' // Company Name
-            );
+				'email' => 'no-reply@website.com', // Company's Email Address (preferably currently used Domain Name)
+				'name' => 'Company Name' // Company Name
+			);
+
 
 /*-------------------------------------------------
 	reCaptcha
@@ -118,6 +55,9 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 ---------------------------------------------------*/
 
 $mail = new PHPMailer();
+
+/* Add your SMTP Codes after this Line */
+
 
 // End of SMTP
 
@@ -151,6 +91,7 @@ $spam_keywords = array(
 	Form Processor
 ---------------------------------------------------*/
 
+if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 	$prefix		= !empty( $_POST['prefix'] ) ? $_POST['prefix'] : '';
 	$submits	= $_POST;
@@ -212,7 +153,28 @@ $spam_keywords = array(
 		reCaptcha
 	---------------------------------------------------*/
 
-	
+	if( isset( $submits['g-recaptcha-response'] ) ) {
+
+		$recaptcha_data = array(
+			'secret' => $recaptcha_secret,
+			'response' => $submits['g-recaptcha-response']
+		);
+
+		$recap_verify = curl_init();
+		curl_setopt( $recap_verify, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify" );
+		curl_setopt( $recap_verify, CURLOPT_POST, true );
+		curl_setopt( $recap_verify, CURLOPT_POSTFIELDS, http_build_query( $recaptcha_data ) );
+		curl_setopt( $recap_verify, CURLOPT_SSL_VERIFYPEER, false );
+		curl_setopt( $recap_verify, CURLOPT_RETURNTRANSFER, true );
+		$recap_response = curl_exec( $recap_verify );
+
+		$g_response = json_decode( $recap_response );
+
+		if ( $g_response->success !== true ) {
+			echo '{ "alert": "error", "message": "' . $message['recaptcha_invalid'] . '" }';
+			exit;
+		}
+	}
 
 	$template	= !empty( $submits['template'] ) ? $submits['template'] : 'html';
 	$html_title	= !empty( $submits['html_title'] ) ? $submits['html_title'] : 'Form Response';
@@ -244,7 +206,8 @@ $spam_keywords = array(
 
 	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Copyrights &copy; ' . date('Y') . ' <strong>SemiColonWeb</strong>. All Rights Reserved.';
 
-	
+	$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Form Response from your Website';
+	$mail->SetFrom( $fromemail['email'] , $fromemail['name'] );
 
 	if( !empty( $replyto ) ) {
 		if( count( $replyto ) > 1 ) {
@@ -257,7 +220,9 @@ $spam_keywords = array(
 		}
 	}
 
-
+	foreach( $toemails as $toemail ) {
+		$mail->AddAddress( $toemail['email'] , $toemail['name'] );
+	}
 
 	$unsets = array( 'prefix', 'subject', 'replyto', 'template', 'html_title', 'message', 'autoresponder', 'ar_subject', 'ar_title', 'ar_message', 'ar_footer', $prefix . 'botcheck', 'g-recaptcha-response', 'force_recaptcha', $prefix . 'submit' );
 
@@ -378,6 +343,9 @@ $spam_keywords = array(
 	if( $autores && !empty( $replyto_e ) ) {
 		$autoresponder = new PHPMailer();
 
+		/* Add your Auto-Responder SMTP Codes after this Line */
+
+
 		// End of Auto-Responder SMTP
 
 		$autoresponder->SetFrom( $fromemail['email'] , $fromemail['name'] );
@@ -423,11 +391,6 @@ $spam_keywords = array(
 
 	$mail->MsgHTML( $body );
 	$mail->CharSet = "UTF-8";
-    $mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Form Response from your Website';
-    foreach( $toemails as $toemail ) {
-		$mail->AddAddress( $toemail['email'] , $toemail['name'] );
-	}
-	$mail->SetFrom( $fromemail['email'] , $fromemail['name'] );
 	$sendEmail = $mail->Send();
 
 	if( $sendEmail == true ):
@@ -441,6 +404,8 @@ $spam_keywords = array(
 		echo '{ "alert": "error", "message": "' . $message['error'] . '<br><br><strong>Reason:</strong><br>' . $mail->ErrorInfo . '" }';
 	endif;
 
-
+} else {
+	echo '{ "alert": "error", "message": "' . $message['error_unexpected'] . '" }';
+}
 
 ?>
