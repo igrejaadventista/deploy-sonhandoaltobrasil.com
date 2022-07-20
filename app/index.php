@@ -32,7 +32,7 @@
 
 </head>
 
-<body class="stretched sticky-footer page-transition" data-loader-html="<span class='pizza'> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> </span>">
+<body class="stretched sticky-footer page-transition">
 
 	<!-- Document Wrapper
 	============================================= -->
