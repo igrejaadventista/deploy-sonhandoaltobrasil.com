@@ -269,7 +269,7 @@ Minha mensagem pra você:
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-                                            <span class="subtitle">eu nome é Tarcila, eu sou psicóloga clínica, graduado no UNASP-SP, especialista em logoterapia e pós-graduada em psicologia organizacional. 
+                                            <span class="subtitle">Meu nome é Tarcila, eu sou psicóloga clínica, graduado no UNASP-SP, especialista em logoterapia e pós-graduada em psicologia organizacional. 
 Grande parte das minhas conquistas eu devo a Colportagem, de maneira especial ao projeto sonhando alto, que me deu oportunidade de me preparar melhor tanto no sentido de ter certeza do que eu gostaria de me tornar como profissional como de desenvolver melhor as habilidade necessárias para colportar nas férias e alcançar os alvos que eu precisava. O projeto sonhando é uma oportunidade de se preparar e se aperfeiçoar.</span>
                                         </div>
                                     </div>
@@ -282,34 +282,7 @@ Grande parte das minhas conquistas eu devo a Colportagem, de maneira especial ao
 						</article>
 						
 
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-formados">
-							<!-- Grid Inner: Start -->
-							<div class="grid-inner">
-								<!-- Image: Start -->
-								<div class="portfolio-image">
-										<img src="images/historias/ryan.jpg" alt="Ryan Victor">
-									<!-- Overlay: Start -->
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-									<!-- Overlay: End -->
-								</div>
-								<!-- Image: End -->
-								<!-- Decription: Start -->
-								<div class="portfolio-desc">
-									<h3>Ryan Victor </h3>
-									<span>Odontologia</span>
-								</div>
-								<!-- Description: Start -->
-							</div>
-							<!-- Grid Inner: End -->
-							<!-- Modal -->
-                            
-                            <!-- Fim Modal -->
-						</article>
+						
 						<!-- Portfolio Item: End -->
 						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-formados">
 							<!-- Grid Inner: Start -->

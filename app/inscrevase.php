@@ -46,7 +46,7 @@
 
 			<div class="p-5 reservation-form rounded bg-white">
 				<h3 class="font-secondary h1 color">Inscreva-se</h3>
-				<div>Todos os todos os campos são obrigatórios.</div>
+				<div>O preenchimento de todos os campos é obrigatório.</div>
 
 				<div class="form-widget mt-4 mt-lg-0" data-loader="button">
 
@@ -91,7 +91,7 @@
                                 <option value="BA">Bahia</option>
                                 <option value="CE">Ceará</option>
                                 <option value="DF">Distrito Federal</option>
-                                <option value="ES">Espirito Santo</option>
+                                <option value="ES">Espírito Santo</option>
                                 <option value="GO">Goiás</option>
                                 <option value="MA">Maranhão</option>
                                 <option value="MS">Mato Grosso do Sul</option>

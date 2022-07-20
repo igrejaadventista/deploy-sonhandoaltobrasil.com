@@ -90,8 +90,8 @@
 						<div class="row col-mb-80" ">
 							<div class="col-lg-6">
 								<div class="feature-box media-box" style="max-width: 890px;">
-									<h3>Sonhe Alto!</h3>
-									<p>Você já ficou em uma fila “quilométrica” em algum local público ou privado por mais de uma hora aguardando a sua vez? Imagino que sim, isso não é nada agradável. Sentimentos como Ansiedade, impaciência, insegurança, medo de não da certo e até mesmo a vontade de desistir tomam conta da maioria dos que vivenciam esta experiência. Sabe, muitos jovens vivem como se estivessem em uma fila imaginária, almejando realizar o sonho de fazer um curso universitário e ainda não conseguiram por conta de um obstáculo financeiro ou quem sabe, ainda não andaram a segunda milha. Ellen White afirma que: “O êxito em qualquer coisa que empreendamos exige um objetivo definido. Aquele que desejar alcançar o verdadeiro êxito na vida deve conservar firmemente em vista o alvo digno de seus esforços. Tal alvo acha-se posto diante da juventude de hoje”. (Educ. pág. 262.) Portanto querido jovem, chegou a sua vez de sonhar mais alto e da um passo de fé em busca dos seus objetivos.</p>
+									<h3>Sonhando Alto!</h3>
+									<p>Você já ficou em uma fila “quilométrica” em algum local público ou privado por mais de uma hora aguardando a sua vez? Imagino que sim, e isso não é nada agradável. Sentimentos como ansiedade, impaciência, insegurança, medo de não dar certo e até mesmo vontade de desistir tomam conta nessas situações. Muitos jovens vivem como se estivessem em uma fila imaginária, almejando realizar o sonho de fazer um curso universitário, mas não conseguem realizar seu propósito porque estão presos a um obstáculo financeiro ou mesmo não conseguiram reagir para ir além e enfrentar a barreira. Ellen White afirma que: “O êxito em qualquer coisa que empreendamos exige um objetivo definido. Aquele que desejar alcançar o verdadeiro êxito na vida deve conservar firmemente em vista o alvo digno de seus esforços. Tal alvo acha-se posto diante da juventude de hoje” (Educação, p. 262). Portanto, querido jovem, chegou a sua vez de sonhar mais alto e dar um passo de fé em busca da realização de seus objetivos.</p>
 								</div>
 							</div>
 							<div class="col-lg-6" >
@@ -110,7 +110,7 @@
 						<div class="col-lg-4 col-md-6 bottommargin-sm center">
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clock"></i>
 							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Horário de Atendimento</h3>
-							<span class="font-primary">Segunda a Sexta | 09h - 20hs<br>
+							<span class="font-primary">Segunda a Sexta | 9h - 20h<br>
 							</span>
 						</div>
 
@@ -118,7 +118,7 @@
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clipboard"></i>
 							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Mais Informações</h3>
 							<span class="font-primary"><strong>Pr. Paulo Pinheiro: </strong>(19) 98216-1125<br>
-							<strong>Pr. Alan: </strong>(75) 9136-2522</span>
+							<strong>Pr. Alan: </strong>(75) 99136-2522</span>
 						</div>
 
 						<div class="col-lg-4 col-md-6 bottommargin-sm center">

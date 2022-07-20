@@ -62,32 +62,32 @@
 	
 							<div class="heading-block center">
 								<h2>2000</h2>
-								<span>É criado no Brasil, na cidade de Curitiba, o projeto Sonhando Alto</span>
+								<span>É criado no Brasil, na cidade de Curitiba, o projeto Sonhando Alto.</span>
 							</div>
 
 							<div class="heading-block center">
 								<h2>2001</h2>
-								<span>14 dos 16 participantes vão para o UNASP EC para iniciar seus estudos a nível universitário.<br><br>Criado a primeira versão no Chile com nome "Sueña en GRANDE"</span>
+								<span>14 dos 16 participantes vão para o UNASP-EC para seus estudos na Universidade.<br><br>É criada a primeira versão do projeto no Chile, com nome Sueña en GRANDE.</span>
 							</div>
 
 							<div class="heading-block center">
 								<h2>2003 a 2004</h2>
-								<span>Se graduam os primeiros profissionais frutos do projeto 2016 O projeto rompe mais fronteiras e é lançado pela Associação Geral para o mundo com o nome "Think BIG".</span>
+								<span>São graduados os primeiros profissionais frutos do projeto de 2016. O projeto avança mais fronteiras e chega à Associação Geral da IASD a fim de ser oferecido para o mundo todo, com o nome Think BIG.</span>
 							</div>
 
 							<div class="heading-block center">
 								<h2>2000 a 2018</h2>
-								<span>Milhares de jovens são beneficiados pelo projeto. Estima-se aproximadamente 30.000 na América do Sul</span>
+								<span>Milhares de jovens são beneficiados pelo projeto. Estima-se aproximadamente 30 mil apenas na América do Sul.</span>
 							</div>
 
 							<div class="heading-block center">
 								<h2>2019</h2>
-								<span>Crescimento do projeto na América do Sul para 35000 jovens beneficiados</span>
+								<span>O projeto cresce ainda mais na América do Sul, e cerca de 35 mil jovens passam a ser beneficiados pelo programa.</span>
 							</div>
 
 							<div class="heading-block center">
 								<h2>2019</h2>
-								<span>Sonhando Alto celebra 20 anos</span>
+								<span>Celebração de 20 anos do projeto Sonhando Alto no Brasil.</span>
 							</div>
 
 

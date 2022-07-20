@@ -47,7 +47,7 @@
 
 			<div class="container clearfix">
 				<img src="images/tit_numeros.png">
-				<span class="fw-normal">O Sonhando Alto é feito de resultados,<br> veja quanto crescemos nos últimos 20 anos.</span>
+				<span class="fw-normal">O Sonhando Alto é feito de resultados.<br> Veja quanto crescemos nos últimos 20 anos.</span>
 			</div>
             <div style="position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url('demos/restaurant/images/sketch2.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-bottom: -10px;"></div>
 		</section><!-- #page-title end -->
@@ -63,7 +63,7 @@
 
                                 <div style="padding-top:30px" >
                                     <h3>Veja e acredite.</h3>
-                                    <p>Vendo os números é fácil reconhecer o sucesso do projeto sonhando Alto.</p>
+                                    <p>Vendo os números é fácil reconhecer o sucesso do projeto Sonhando Alto.</p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                         <div class="col-6 col-md-4 col-lg-1-5 text-center" style="background-color: #ededed;">
                             <div>
                                 <i class="i-plain i-xlarge mx-auto bottommargin-sm icon-et-puzzle"></i>
-                                <div class="counter"  style="color: #d39433;"><span data-from="10" data-to="42500" data-refresh-interval="25" data-speed="5000"></span>+</div>
+                                <div class="counter"  style="color: #d39433;"><span data-from="10" data-to="42.500" data-refresh-interval="25" data-speed="5000"></span>+</div>
                                 <h5>Participantes</h5>
                             </div>
                         </div>
