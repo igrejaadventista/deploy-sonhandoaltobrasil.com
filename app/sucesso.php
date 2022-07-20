@@ -303,7 +303,7 @@ Grande parte das minhas conquistas eu devo a Colportagem, de maneira especial ao
 								<!-- Image: End -->
 								<!-- Decription: Start -->
 								<div class="portfolio-desc">
-									<h3><Pedro Henrique </h3>
+									<h3>Dr. Pedro Henrique</h3>
 									<span>Fisioterapia</span>
 								</div>
 								<!-- Description: Start -->
