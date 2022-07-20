@@ -90,7 +90,7 @@
                         <div class="col-6 col-md-4 col-lg-1-5 text-center" style="background-color: #ededed;">
                             <div>
                                 <i class="i-plain i-xlarge mx-auto bottommargin-sm icon-et-puzzle"></i>
-                                <div class="counter"  style="color: #d39433;"><span data-from="10" data-to="42.500" data-refresh-interval="25" data-speed="5000"></span>+</div>
+                                <div class="counter"  style="color: #d39433;"><span data-from="10" data-to="42500"  data-refresh-interval="25" data-speed="5000"></span>+</div>
                                 <h5>Participantes</h5>
                             </div>
                         </div>

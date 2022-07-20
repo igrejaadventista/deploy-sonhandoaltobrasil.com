@@ -118,7 +118,7 @@
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clipboard"></i>
 							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Mais Informações</h3>
 							<span class="font-primary"><strong>Pr. Paulo Pinheiro: </strong>(19) 98216-1125<br>
-							<strong>Pr. Alan: </strong>(75) 99136-2522</span>
+							<strong>Pr. Alan: </strong>(75) 99136-2522</span> 
 						</div>
 
 						<div class="col-lg-4 col-md-6 bottommargin-sm center">
@@ -194,10 +194,6 @@
 				dotsContainer: '#item-thumb1',
 				rtl: carouselRTL
 			});
-		});
-
-		$(document).ready(function(){
-			$( "#menu" ).load( "menu.html" );
 		});
 
 	</script>
