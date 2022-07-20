@@ -229,11 +229,11 @@
 								<div class="portfolio-item">
 									<div>
 									
-											<img src="images/videos_pastores/6-Pr-Gilberto-Basílio.jpg" alt="Gilberto Basílio">
+											<img src="images/videos_pastores/6-Pr-Gilberto-Basiilio.jpg" alt="Gilberto Basílio">
 										
 										<div class="bg-overlay">
 											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-											<a href="images/videos_pastores/6-Pr-Gilberto-Basílio.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											<a href="images/videos_pastores/6-Pr-Gilberto-Basiilio.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
 											</div>
 											
 											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
