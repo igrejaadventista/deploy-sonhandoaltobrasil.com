@@ -57,7 +57,7 @@
 						<div class="form-process">
 							<div class="css3-spinner">
 								<div class="css3-spinner-scaler"></div>
-							</div>
+							</div> 
 						</div>
 
 						<div class="col-sm-6 mb-3">
