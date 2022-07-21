@@ -70,7 +70,7 @@
 							<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="E-mail" />
 						</div>
                         <div class="col-sm-6 mb-3">
-							<input type="text" id="template-contactform-celular" name="template-contactform-celular" value="" class="required sm-form-control border-form-control" placeholder="Celular/Whatsapp" />
+							<input type="text" id="template-contactform-celular" name="template-contactform-celular" value="" class="required sm-form-control border-form-control" placeholder="Celular/WhatsApp" />
 						</div>
                         <div class="col-sm-6 mb-3">
 							<input type="text" id="template-contactform-instagram" name="template-contactform-instagraml" value="" class="required sm-form-control border-form-control" placeholder="Instagram" />
@@ -79,7 +79,7 @@
 							<input type="text" id="template-contactform-cidade" name="template-contactform-cidade" value="" class="required sm-form-control border-form-control" placeholder="Cidade" />
 						</div>
                         <div class="col-sm-6 mb-3">
-							<input type="text" id="template-contactform-cep" name="template-contactform-cep" value="" class="required sm-form-control border-form-control" placeholder="Cep" />
+							<input type="text" id="template-contactform-cep" name="template-contactform-cep" value="" class="required sm-form-control border-form-control" placeholder="CEP" />
 						</div>
                         <div class="col-6 mb-3">
 							<select class="custom-select sm-form-control border-form-control"  id="template-contactform-estado" name="template-contactform-estado">
@@ -120,7 +120,7 @@
 
 						<div class="col-6 mb-3">
 							<select class="custom-select sm-form-control border-form-control"  id="template-contactform-nivel" name="template-contactform-nivel">
-                            <option value="disabled" disabled selected>Nível Escolaridade</option>
+                            <option value="disabled" disabled selected>Nível de Escolaridade</option>
 								<option value="Não iniciei o Ensino Médio">Não iniciei o Ensino Médio</option>
 								<option value="1º Ano">1º Ano</option>
                                 <option value="2º Ano">2º Ano</option>
@@ -132,10 +132,10 @@
 						</div>
                         <div class="clear"></div>
                         <div class="col-sm-6 mb-3">
-							<input type="text" id="template-contactform-curso" name="template-contactform-curso" value="" class="required sm-form-control border-form-control" placeholder="Que faculdade deseja fazer?" />
+							<input type="text" id="template-contactform-curso" name="template-contactform-curso" value="" class="required sm-form-control border-form-control" placeholder="Qual curso deseja fazer?" />
 						</div>
                         <div class="col-sm-6 mb-3">
-							<input type="text" id="template-contactform-universidade" name="template-contactform-universidade" value="" class="required sm-form-control border-form-control" placeholder="Qual universidade?" />
+							<input type="text" id="template-contactform-universidade" name="template-contactform-universidade" value="" class="required sm-form-control border-form-control" placeholder="Em qual universidade deseja estudar?" />
 						</div>
 					
 
