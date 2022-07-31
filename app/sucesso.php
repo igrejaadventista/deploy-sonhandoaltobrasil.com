@@ -108,11 +108,7 @@
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-                                            <span class="subtitle">Eu era um menino simples com o sonho de poder ser médico nos Estados Unidos. Deus usou pessoas para criar o projeto Sonhando Alto. Eu fui guiado por Ele para trabalhar em 13 campanhas de Colportagem que me ajudaram a cumprir esse objetivo, e muito mais… 
-Pude estudar, ajudar minha familia financeiramente, e aprender a ser resiliente através de um trabalho que aproximava eu e outros à Deus. 
-Hoje estou me especializando em emergentologia em um dos hospitais mais respeitados dos Estados Unidos (Hospital Universitário da Virginia).
-Minha mensagem pra você: 
-“Seja forte e corajoso”.  A colportagem não é fácil e os colportores não são perfeitos, mas você pode permitir que Deus faça de você uma pessoa melhor através dessa obra.</span>
+                                            <span class="subtitle">Eu era um menino simples e sonhava em ser médico nos Estados Unidos. Deus usou pessoas para criar o projeto Sonhando Alto. Eu fui guiado por Ele para trabalhar em 13 campanhas de colportagem que me ajudaram a alcançar meu objetivo, e muito mais…Pude estudar, ajudar minha família financeiramente e aprender a ser resiliente. O trabalho que realizei na colportagem me aproximava de Deus e dos outros. Hoje estou me especializando em emergentologia em um dos hospitais mais respeitados dos Estados Unidos (Hospital Universitário da Virgínia). Minha mensagem pra você é: “Seja forte e corajoso”. A colportagem não é fácil, você terá lutas, mas você aproveite cada oportunidade para ser moldado por Deus. </span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -156,7 +152,7 @@ Minha mensagem pra você:
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-                                            <span class="subtitle">O projeto Sonhando Alto mudou a minha vida para sempre. Foi através dessa oportunidade que realizei meu sonho de estudar em uma faculdade Adventista. Além de me possibilitar uma formação acadêmica, esse projeto me desenvolveu como pessoa, em muitas outras áreas, gerando um aprendizado que vai muito além do que é obtido nos bancos acadêmicos.</span>
+                                            <span class="subtitle">O projeto Sonhando Alto mudou a minha vida e me permitiu realizar meu sonho de  estudar em uma faculdade adventista. Além disso, tive oportunidades de crescimento que ultrapassaram os bancos da faculdade; por meio do projeto construí experiências que levarei para toda a minha vida. </span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -198,7 +194,7 @@ Minha mensagem pra você:
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-                                            <span class="subtitle">O projeto Sonhando Alto mudou a minha vida para sempre. Sonhando alto pra mim significa mudança de vida. Tive o privilégio de liderar o primeiro sonhando, e pude ver vidas sendo transformadas.</span>
+                                            <span class="subtitle">O projeto Sonhando Alto mudou a minha vida para sempre. Sonhando alto pra mim significa mudança de vida. Tive o privilégio de liderar o primeiro Sonhando Alto e pude ver vidas sendo transformadas.</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -269,8 +265,7 @@ Minha mensagem pra você:
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-                                            <span class="subtitle">Meu nome é Tarcila, eu sou psicóloga clínica, graduado no UNASP-SP, especialista em logoterapia e pós-graduada em psicologia organizacional. 
-Grande parte das minhas conquistas eu devo a Colportagem, de maneira especial ao projeto sonhando alto, que me deu oportunidade de me preparar melhor tanto no sentido de ter certeza do que eu gostaria de me tornar como profissional como de desenvolver melhor as habilidade necessárias para colportar nas férias e alcançar os alvos que eu precisava. O projeto sonhando é uma oportunidade de se preparar e se aperfeiçoar.</span>
+                                            <span class="subtitle">Meu nome é Tarcila, eu sou psicóloga clínica, graduada no UNASP-SP, especialista em logoterapia e pós-graduada em psicologia organizacional. Grande parte das minhas conquistas eu devo a colportagem, de maneira especial ao projeto sonhando alto, que me deu oportunidade de me preparar melhor tanto no sentido de ter certeza do que eu gostaria de me tornar como profissional como de desenvolver melhor as habilidades necessárias para colportar nas férias e alcançar os alvos que eu precisava. O projeto Sonhando Alto é uma oportunidade ímpar de se preparar e se aperfeiçoar. </span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -303,7 +298,7 @@ Grande parte das minhas conquistas eu devo a Colportagem, de maneira especial ao
 								<!-- Image: End -->
 								<!-- Decription: Start -->
 								<div class="portfolio-desc">
-									<h3>Dr. Pedro Henrique</h3>
+									<h3>Pedro Henrique</h3>
 									<span>Fisioterapia</span>
 								</div>
 								<!-- Description: Start -->
@@ -317,8 +312,7 @@ Grande parte das minhas conquistas eu devo a Colportagem, de maneira especial ao
                                         <div class="fbox-content">
 										<h3>
 </h3>
-                                            <span class="subtitle">Sou o Dr. Pedro Henrique,
-Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacientes com déficits neurológicas.<br>Tive a honra de participar em 2 ocasiões no projeto sonhando alto. Momentos esses que aprendi de fato a depender totalmente de Deus e que me levaram a realização do sonho profissional. Maranata!</span>
+                                            <span class="subtitle">Tive a honra de participar em duas ocasiões do projeto Sonhando Alto. Vivi momentos nos quais aprendi, de fato, o que significa depender totalmente de Deus. Tal experiência me impulsionou para a realização do sonho profissional. </span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -361,7 +355,7 @@ Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacien
                                         
                                         <div class="fbox-content">
 										<h3></h3>
-                                            <span class="subtitle">Sou Pr. Ademir Antunes Distrito de São Lourenço - MG Associação Mineira Sul. <br>Participar do Sonhando alto foi fundamental para desenvolver as competências de liderança em minha vida</span>
+                                            <span class="subtitle">Participar do Sonhando alto foi fundamental no desenvolvimento das competências de liderança em minha vida.</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -403,7 +397,7 @@ Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacien
                                     <div class="feature-box fbox-center fbox-effect fbox-lg border-bottom-0 mb-0" style="padding: 40px;">
                                         
                                         <div class="fbox-content">
-                                            <span class="subtitle">Sou a Dra. Carla Naiza - Escrivã polícia Civil, Rurópolis-PA. <br>O projeto sonhando alto foi um divisor de águas na minha vida. Pois, foi através deste projeto que eu tive condições financeiras para ingressar no curso de Direito no UNASP e realizar o meu sonho de ser uma Advogada. Além disso, até hoje eu aplico na minha vida pessoal e profissional técnicas que aprendi no projeto.</span>
+                                            <span class="subtitle">O projeto Sonhando Alto foi um divisor de águas na minha vida. Através desse projeto, tive condições financeiras para ingressar no curso de Direito no UNASP e realizar o meu sonho de ser uma advogada. Além disso, até hoje eu aplico na minha vida pessoal e profissional técnicas que aprendi no projeto.</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -520,7 +514,7 @@ Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacien
                                         
                                         <div class="fbox-content">
 										<h3>Karine</h3>
-                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2011 e se Formou em 2015.</span>
+                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2011 e se formou em 2015.</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -563,7 +557,7 @@ Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacien
                                         
                                         <div class="fbox-content">
 										<h3>Exdra</h3>
-                                            <span class="subtitle">Vim de uma familia humilde e sem condições de custear os estudos, conheci a colportagem através de um amigo, somando o sonhando alto e as férias depois do sonhando alto, consegui recursos para estudar. Hoje estou no Paraná cursando psicologia no 4° semestre.</span>
+                                            <span class="subtitle">Vim de família humilde e sem condições de custear meus estudos. Conheci a colportagem por meio de um amigo e assim passei a me dedicar às vendas e consegui recursos para estudar. Atualmente estudo psicologia no Paraná. </span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -606,7 +600,7 @@ Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacien
                                         
                                         <div class="fbox-content">
 										<h3>Thacio Farias</h3>
-                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2013 e se Formou em 2018.</span>
+                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2013 e se formou em 2018.</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -692,9 +686,7 @@ Fisioterapeuta na área clínica, pela cidade de Imperatriz/MA, atendendo pacien
                                         
                                         <div class="fbox-content">
 										<h3>Ilana Filgueira</h3>
-                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2012 e se Formou em 2015.
-
-Participei do sonhando alto com intuito de conseguir uma bolsa e estudar em uma faculdade. Logo me apaixonei por essa obra. Aprendi a me comunicar melhor, a importância de persistir, me relacionar melhor com as pessoas e tive uma experiência mais profunda com Deus. Hoje, sou Diretora de uma escola na cidade que eu nasci e sou agradecida por tudo que Deus me deu na colportagem.</span>
+                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2012 e se formou em 2015. Meu intuito era conseguir uma bolsa de estudos para fazer uma faculdade. Logo me apaixonei por essa obra. Aprendi a me comunicar melhor, a importância de persistir, me relacionar melhor com as pessoas e tive uma experiência mais profunda com Deus. Hoje sou diretora de uma escola na cidade em que eu nasci. Sou agradecida por tudo que Deus me deu na colportagem.</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -737,9 +729,9 @@ Participei do sonhando alto com intuito de conseguir uma bolsa e estudar em uma 
                                         
                                         <div class="fbox-content">
 										<h3>Lucas Cordeiro</h3>
-                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2019.
-
-Ao conhecer um pouco mais sobre a colportagem, Vi que além de ser usado por Deus, poderia realizar grandes sonhos na minha vida. Deixei meu emprego e mesmo com medo, eu e minha esposa fomos colportar. Hoje digo: os planos de Deus são infinitamente maiores que os nossos. Tudo o que precisamos fazer é nos entregarmos nas mãos dEle e nos permitirmos ser conduzidos por seu Santo Espírito. Aos jovens que sonham em fazer uma faculdade e não tem como pagar, meu conselho é que participem do projeto Sonhando Alto. Tenho certeza que Deus há de derramar bênçãos sem medida para aqueles que se dedicarem a esse trabalho tão importante e necessário nesses dias que antecedem a volta de Jesus.</span>
+                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2019. 
+Ao conhecer um pouco mais sobre a colportagem, percebi que, além de ser usado por Deus, poderia realizar grandes sonhos na minha vida. Deixei meu emprego, mesmo com receios, e eu e minha esposa fomos colportar. Hoje afirmo: os planos de Deus são infinitamente maiores que os nossos. Tudo o que precisamos fazer é nos entregar nas mãos Dele e permitir a condução do Seu Santo Espírito. Aos jovens que sonham em fazer uma faculdade e não têm como pagar, meu conselho é que participem do projeto Sonhando Alto. Tenho certeza de que Deus há de derramar bênçãos sem medida para aqueles que se dedicarem a esse trabalho tão importante e necessário nesses dias que antecedem a volta de Jesus.
+</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -782,9 +774,7 @@ Ao conhecer um pouco mais sobre a colportagem, Vi que além de ser usado por Deu
                                         
                                         <div class="fbox-content">
 										<h3>Ana Carolina</h3>
-                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2008 e se Formou em 2013.
-
-Minha família não tinha condições financeiras, mas ao ouvir falar da colportagem e do seu potencial em realizar sonhos resolvi arriscar. Estudei e me formei. A colportagem foi a escola da vida para mim e através dela Deus me mostrou que vale muito a pena sonhar alto!</span>
+                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2008 e se formou em 2013. Minha família não tinha condições financeiras, mas ao ouvir falar da colportagem e do seu potencial em realizar sonhos resolvi arriscar. Estudei e me formei. A colportagem para mim foi a escola da vida e, por meio dela, Deus me mostrou que vale muito a pena sonhar alto!</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -827,9 +817,9 @@ Minha família não tinha condições financeiras, mas ao ouvir falar da colport
                                         
                                         <div class="fbox-content">
 										<h3>Julio Englerth</h3>
-                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2000.
-
-Depois de trabalhar por mais de 10 anos no ramo farmacêutico, e em outras areas ainda tinha o sonha de estudar Teologia, Um dia, recebi na igreja uma carta endereçado aos jovens que gostariam de estudar em uma das instituições que tinha esse curso. Surgia aí o projeto Sonhando Alto. quando cheguei em casa e contei que iria colportar em outra cidade, meus pais não me incentivaram, mas mesmo assim eu fui. Colportei, estudei e realizei meu sonho. Louvo a Deus por ter me mostrado o caminho do ministério de publicações, uma grande escola que capacita, molda o caráter e da a oportunidade de realizar sonhos.</span>
+                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2000. 
+Depois de trabalhar por mais de 10 anos no ramo farmacêutico, eu ainda tinha o sonho de estudar Teologia. Certo dia recebi na igreja uma carta endereçada a jovens que gostassem de estudar em uma das instituições que oferecia o curso de Teologia. Decidi então participar do projeto Sonhando Alto. Tive oposição familiar, principalmente porque precisava trabalhar  em outra cidade. Colportei, estudei e realizei meu sonho. Louvo a Deus por ter me mostrado o caminho do Ministério de Publicações, uma grande escola que capacita, molda o caráter e proporciona a oportunidade de realizar sonhos.
+</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
@@ -872,9 +862,7 @@ Depois de trabalhar por mais de 10 anos no ramo farmacêutico, e em outras areas
                                         
                                         <div class="fbox-content">
 										<h3>Elvis Santos</h3>
-                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2012.
-
-Essa campanha de agora Já estou na minha décima oitava campanha de Colportagem para glória de Deus. fui pra Bahia em 2015, conclui o curso de pedagogia em 2018, em 2019 comecei a cursar teologia e hoje estou no 4° período do curso.</span>
+                                            <span class="subtitle">Participou do Projeto Sonhando Alto 2012. Já completei a décima oitava campanha de colportagem, para a glória de Deus. Fui pra Bahia em 2015, conclui o curso de pedagogia em 2018, em 2019 comecei a cursar teologia.</span>
                                         </div>
                                     </div>
                                     <div class="section center m-0" style="padding: 30px;">
