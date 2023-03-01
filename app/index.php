@@ -91,7 +91,12 @@
 							<div class="col-lg-6">
 								<div class="feature-box media-box" style="max-width: 890px;">
 									<h3>Sonhando Alto!</h3>
-									<p>Você já ficou em uma fila “quilométrica” em algum local público ou privado por mais de uma hora aguardando a sua vez? Imagino que sim, e isso não é nada agradável. Sentimentos como ansiedade, impaciência, insegurança, medo de não dar certo e até mesmo vontade de desistir tomam conta nessas situações. Muitos jovens vivem como se estivessem em uma fila imaginária, almejando realizar o sonho de fazer um curso universitário, mas não conseguem realizar seu propósito porque estão presos a um obstáculo financeiro ou mesmo não conseguiram reagir para ir além e enfrentar a barreira. Ellen White afirma que: “O êxito em qualquer coisa que empreendamos exige um objetivo definido. Aquele que desejar alcançar o verdadeiro êxito na vida deve conservar firmemente em vista o alvo digno de seus esforços. Tal alvo acha-se posto diante da juventude de hoje” (Educação, p. 262). Portanto, querido jovem, chegou a sua vez de sonhar mais alto e dar um passo de fé em busca da realização de seus objetivos.</p>
+									<p>Já imaginou realizar o sonho de cursar uma faculdade e, consequentemente poder obter outras realizações na vida? Já ficou horas nas redes sociais se comprando com outras pessoas? Com a sensação de que ir estudar em uma das faculdades adventistas, é algo somente para os outros e muito distante da sua realidade? 
+Ei, abandone os sentimentos de comparação, ansiedade e insegurança. 
+Pois, a palavra de Deus em João 10:10 diz que Ele veio para que eu e você tenhamos vida, e vida em abundância. Acredite, Cristo quer fazer infinitamente mais do que você possa imaginar. Essa é a sua chance, a grande oportunidade, de superar as dificuldades financeiras e ingressar no ensino superior.
+Chegou a hora de viver o novo, de experimentar o extraordinário, e, através do amor de Jesus lançar fora o medo e dar um passo de fé importante para o seu futuro. Ellen White afirma que “O segredo do êxito está na união do poder divino com o esforço humano. Aqueles que conseguem os maiores resultados são os que mais implicitamente confiam no Braço Todo-Poderoso.”
+Deus já demonstrou que será contigo, agora você precisa confiar, dar o seu passo de fé e Sonhar Alto.
+</p>
 								</div>
 							</div>
 							<div class="col-lg-6" >
