@@ -164,27 +164,7 @@ Deus já demonstrou que será contigo, agora você precisa confiar, dar o seu pa
 
 							</div>
 
-							<div class="oc-item">
-								<div class="portfolio-item">
-									<div>
-									
-											<img src="images/videos_pastores/3-Pr-Jason.jpg" alt="Pr. Jason Rosa">
-										
-										<div class="bg-overlay">
-											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-											<a href="images/videos_pastores/3-Pr-Jason.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-											</div>
-											
-											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-										</div>
-									</div>
-									<div class="portfolio-desc">
-										<h3>Pr. Jason Rosa</h3>
-										<span>UNEB</span>
-									</div>
-								</div>
 
-							</div>
 
 							<div class="oc-item">
 								<div class="portfolio-item">
@@ -225,6 +205,28 @@ Deus já demonstrou que será contigo, agora você precisa confiar, dar o seu pa
 									<div class="portfolio-desc">
 										<h3>Pr. Fabiano Paulo</h3>
 										<span>UNOB</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="oc-item">
+								<div class="portfolio-item">
+									<div>
+									
+											<img src="images/videos_pastores/11-Pr-Alan-Araujo.jpg" alt="Alan Araújo">
+										
+										<div class="bg-overlay">
+											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="images/videos_pastores/11-Pr-Alan-Araujo.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+											</div>
+											
+											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+										</div>
+									</div>
+									<div class="portfolio-desc">
+										<h3>Pr. Alan Araújo</h3>
+										<span>UNEB</span>
 									</div>
 								</div>
 
@@ -340,27 +342,7 @@ Deus já demonstrou que será contigo, agora você precisa confiar, dar o seu pa
 
 							</div>
 
-							<div class="oc-item">
-								<div class="portfolio-item">
-									<div>
-									
-											<img src="images/videos_pastores/11-Pr-Alan-Araujo.jpg" alt="Alan Araújo">
-										
-										<div class="bg-overlay">
-											<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-											<a href="images/videos_pastores/11-Pr-Alan-Araujo.mp4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-											</div>
-											
-											<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-										</div>
-									</div>
-									<div class="portfolio-desc">
-										<h3>Pr. Alan Araújo</h3>
-										<span>IDEC FADBA</span>
-									</div>
-								</div>
 
-							</div>
 
 							<div class="oc-item">
 								<div class="portfolio-item">
@@ -399,7 +381,7 @@ Deus já demonstrou que será contigo, agora você precisa confiar, dar o seu pa
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clipboard"></i>
 							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Mais Informações</h3>
 							<span class="font-primary"><strong>Pr. Paulo Pinheiro: </strong>(19) 98216-1125<br>
-							<strong>Pr. Alan: </strong>(75) 99136-2522</span> 
+							<strong>Pr. Tadeu Pereira: </strong>(75) 99298-0004</span> 
 						</div>
 
 						<div class="col-lg-4 col-md-6 bottommargin-sm center">
