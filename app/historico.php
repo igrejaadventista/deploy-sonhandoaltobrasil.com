@@ -86,7 +86,7 @@
 							</div>
 
 							<div class="heading-block center">
-								<h2>2020</h2> 
+								<h2>2020</h2>  
 								<span>Celebração de 20 anos do projeto Sonhando Alto no Brasil.</span>
 							</div>
 

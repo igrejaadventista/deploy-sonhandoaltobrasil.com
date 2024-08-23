@@ -381,7 +381,7 @@ Deus já demonstrou que será contigo, agora você precisa confiar, dar o seu pa
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clipboard"></i>
 							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Mais Informações</h3>
 							<span class="font-primary"><strong>Pr. Paulo Pinheiro: </strong>(19) 98216-1125<br>
-							<strong>Pr. Tadeu Pereira: </strong>(75) 99298-0004</span> 
+							<strong>Pr. Tadeu Pereira: </strong>(75) 99298-0004</span>  
 						</div>
 
 						<div class="col-lg-4 col-md-6 bottommargin-sm center">
