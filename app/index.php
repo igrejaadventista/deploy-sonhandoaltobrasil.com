@@ -208,7 +208,7 @@ Deus já demonstrou que será contigo, agora você precisa confiar, dar o seu pa
 									</div>
 								</div>
 
-							</div>
+							</div> 
 
 							<div class="oc-item">
 								<div class="portfolio-item">
