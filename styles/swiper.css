@@ -1,0 +1,12 @@
+/* tamanho básico do container */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* como cada slide se comporta */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
