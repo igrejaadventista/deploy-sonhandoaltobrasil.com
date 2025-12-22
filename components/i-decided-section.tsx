@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import { useEffect, useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
-import { Pause, Play, ChevronLeft, ChevronRight } from "lucide-react"
-import { useMediaQuery } from "usehooks-ts"
+import { useEffect, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { Pause, Play, ChevronLeft, ChevronRight } from "lucide-react";
+import { useMediaQuery } from "usehooks-ts";
 
 const testimonialsPreview = [
   {
@@ -24,40 +24,39 @@ const testimonialsPreview = [
     course: "Publicidade e Propaganda",
     image: "/images/depoimentos/ezequias.webp",
   },
-]
+];
 
 export default function IDecidedSection() {
-  const [current, setCurrent] = useState(0)
-  const [paused, setPaused] = useState(false)
-  const [mounted, setMounted] = useState(false)
+  const [current, setCurrent] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
-  const isDesktop = useMediaQuery("(min-width: 1024px)")
+  const isDesktop = useMediaQuery("(min-width: 1024px)");
 
   useEffect(() => {
-    if (!mounted || paused || !isDesktop) return
+    if (!mounted || paused || !isDesktop) return;
 
     const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % testimonialsPreview.length)
-    }, 4000)
+      setCurrent((prev) => (prev + 1) % testimonialsPreview.length);
+    }, 4000);
 
-    return () => clearInterval(interval)
-  }, [paused, isDesktop, mounted])
+    return () => clearInterval(interval);
+  }, [paused, isDesktop, mounted]);
 
   const goNext = () =>
-    setCurrent((prev) => (prev + 1) % testimonialsPreview.length)
+    setCurrent((prev) => (prev + 1) % testimonialsPreview.length);
 
   const goPrev = () =>
     setCurrent(
       (prev) =>
-        (prev - 1 + testimonialsPreview.length) %
-        testimonialsPreview.length
-    )
+        (prev - 1 + testimonialsPreview.length) % testimonialsPreview.length
+    );
 
-  if (!mounted) return null
+  if (!mounted) return null;
 
   return (
     <section
@@ -90,25 +89,24 @@ export default function IDecidedSection() {
             }`}
           >
             {testimonialsPreview.map((testimonial, index) => {
-              if (!isDesktop && index !== current) return null
+              if (!isDesktop && index !== current) return null;
 
               const offset =
                 (index - current + testimonialsPreview.length) %
-                testimonialsPreview.length
+                testimonialsPreview.length;
 
-              let positionClass = ""
+              let positionClass = "";
 
               if (isDesktop) {
                 if (offset === 0) {
-                  positionClass = "z-10 scale-105"
+                  positionClass = "z-10 scale-105";
                 } else if (
                   offset === 1 ||
                   offset === testimonialsPreview.length - 1
                 ) {
-                  positionClass =
-                    "z-9 scale-90 opacity-50 -translate-y-2"
+                  positionClass = "z-9 scale-90 opacity-50 -translate-y-2";
                 } else {
-                  return null
+                  return null;
                 }
               }
 
@@ -147,7 +145,7 @@ export default function IDecidedSection() {
                     </div>
                   </Link>
                 </motion.div>
-              )
+              );
             })}
           </div>
 
@@ -191,5 +189,5 @@ export default function IDecidedSection() {
         </Link>
       </div>
     </section>
-  )
+  );
 }
