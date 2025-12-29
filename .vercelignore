@@ -1,0 +1,7 @@
+# Excluir vídeos grandes do deploy (excedem limite de 1GB da Vercel)
+public/videos/testemunho_julio_diniz.mp4
+public/videos/testemunho_maxilaene.mp4
+
+# Nota: Estes vídeos devem ser hospedados em um CDN externo
+# Opções: YouTube, Vimeo, Cloudinary, AWS S3, etc.
+
