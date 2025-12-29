@@ -7,7 +7,7 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "vercel-build": "next build"
+    "vercel-build": "bash scripts/vercel-build.sh"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
