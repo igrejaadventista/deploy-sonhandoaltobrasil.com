@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run vercel-build",
-  "installCommand": "git lfs install && npm install",
+  "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["gru1"]
 }

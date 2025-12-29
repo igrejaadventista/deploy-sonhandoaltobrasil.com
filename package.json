@@ -7,7 +7,7 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "vercel-build": "git lfs pull && next build"
+    "vercel-build": "next build"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
