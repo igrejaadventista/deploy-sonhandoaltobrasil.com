@@ -10,10 +10,14 @@ git lfs install
 CURRENT_REMOTE=$(git remote get-url origin 2>/dev/null || echo "")
 echo "📍 Remote atual: $CURRENT_REMOTE"
 
-# Garantir que está usando HTTPS
-if [[ "$CURRENT_REMOTE" == *"git@"* ]]; then
-  echo "🔄 Convertendo remote de SSH para HTTPS..."
+# Na Vercel, o remote pode não estar configurado ou estar vazio
+# Vamos configurar explicitamente
+if [[ -z "$CURRENT_REMOTE" ]] || [[ "$CURRENT_REMOTE" == *"git@"* ]]; then
+  echo "🔄 Configurando remote para HTTPS..."
+  git remote remove origin 2>/dev/null || true
+  git remote add origin https://github.com/igrejaadventista/deploy-sonhandoaltobrasil.com.git 2>/dev/null || \
   git remote set-url origin https://github.com/igrejaadventista/deploy-sonhandoaltobrasil.com.git
+  echo "✅ Remote configurado: $(git remote get-url origin)"
 fi
 
 # Configurar Git LFS para usar HTTPS explicitamente
