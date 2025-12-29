@@ -59,6 +59,12 @@ fi
 echo "📊 Verificando tamanho dos arquivos após pull..."
 ls -lh public/images/banner.webp public/images/sonhando-alto-logo.webp 2>/dev/null || echo "⚠️ Arquivos não encontrados"
 
+# Remover vídeos grandes antes do build (excedem limite de 1GB da Vercel)
+echo "🗑️ Removendo vídeos grandes para evitar erro de limite de upload..."
+rm -f public/videos/testemunho_julio_diniz.mp4
+rm -f public/videos/testemunho_maxilaene.mp4
+echo "✅ Vídeos grandes removidos (devem ser hospedados em CDN externo)"
+
 # Build do Next.js
 echo "🏗️ Iniciando build do Next.js..."
 next build

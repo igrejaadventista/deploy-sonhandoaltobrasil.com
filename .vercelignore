@@ -1,6 +1,9 @@
 # Excluir vídeos grandes do deploy (excedem limite de 1GB da Vercel)
+# Estes arquivos são removidos pelo script vercel-build.sh antes do build
 public/videos/testemunho_julio_diniz.mp4
 public/videos/testemunho_maxilaene.mp4
+videos/testemunho_julio_diniz.mp4
+videos/testemunho_maxilaene.mp4
 
 # Nota: Estes vídeos devem ser hospedados em um CDN externo
 # Opções: YouTube, Vimeo, Cloudinary, AWS S3, etc.
